@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='css/reset.css' rel='stylesheet' type='text/css'>
+    <link href='css/layout.css' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/slick.js"></script>
+
+</head>
+<body>
+<h2>Design Banner</h2>
+<div class="banner-slide">
+    <div>
+        <img src="img/01010_mark_prev.png">
+    </div>
+    <div>
+        <img src="img/01017_roll_prev.png">
+    </div>
+    <div>
+        <img src="img/04010_mark_prev.png">
+    </div>
+    <div>
+        <img src="img/04016_roll_prev.png">
+    </div>
+    <div>
+        <img src="img/05009_mark_prev.png">
+    </div>
+    <div>
+        <img src="img/05016_roll_prev.png">
+    </div>
+    <div>
+        <img src="img/07011_mark_prev.png">
+    </div>
+    <div>
+        <img src="img/07014_roll_prev.png">
+    </div>
+    <div>
+        <img src="img/12011_mark_prev.png">
+    </div>
+    <div>
+        <img src="img/12014_roll_prev.png">
+    </div>
+</div>
+
+<script>
+    $(".banner-slide").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 6000,
+    });
+</script>
+</body>
+</html>
