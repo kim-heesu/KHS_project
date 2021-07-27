@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap');
+/* ----------------------------------------------------------------
+       common
+---------------------------------------------------------------- */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mobile-br {
+    display: none;
+}
+.web-br {
+    display: block;
+}
+.display-w {
+    display: block;
+}
+.display-inline-w {
+    display: inline-block;
+}
+.display-m {
+    display: none;
+}
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.text-darkgray {
+    color: #929292;
+}
+/*slick style*/
+.slick-slider {
+    margin: 0 -20px;
+}
+.slick-list {
+    overflow: hidden;
+    font-size: 0;
+    z-index: 10;
+}
+.slick-slide {
+    float: left;
+    margin: 0 20px;
+}
+.slick-arrow {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+}
+.slick-arrow:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    margin: -5px 0 0 -8px;
+    border: solid #000;
+    border-width: 1px 1px 0 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.slick-arrow.slick-prev {
+    right: 50px;
+}
+.slick-arrow.slick-prev:after {
+    margin: -5px 0 0 -2px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+/*icon*/
+.ico {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    text-indent: -99999px;
+    overflow: hidden;
+}
+/*side menu*/
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 420px;
+    height: 100%;
+    padding: 80px 90px;
+    background: #fff;
+}
+.side-menu .profile-img {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.side-menu h1 {
+    padding: 35px 0 60px;
+    font-size: 13px;
+    color: #666;
+}
+.side-menu nav li {
+    font-size: 22px;
+}
+.side-menu nav li + li {
+    margin-top: 20px;
+}
+.side-menu .profile-info {
+    margin-top: 50px;
+    font-size: 12px;
+    color: #999;
+}
+.side-menu .profile-info li {
+    position: relative;
+    margin-top: 15px;
+}
+.side-menu .profile-info li a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.side-menu .profile-info li:hover a {
+    color: #000;
+    font-size: 14px;
+}
+/*content*/
+.content {
+    padding-left: 420px;
+}
+.content > div {
+    height: 100vh;
+    padding: 80px 60px 0;
+}
+.content h2 {
+    margin-bottom: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+}
+.project > div {
+    position: relative;
+    height: 50%;
+}
+.page-box {
+    position: relative;
+    height: 35vh;
+    border: 1px solid #ddd;
+}
+.page-box a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.page-box .text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.page-box .text-box h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.page-box .text-box h3 + p {
+    margin-top: 5px;
+    font-size: 13px;
+}
+.page-box:hover a {
+    opacity: 1;
+}
+.design-banner h2 {
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 40px;
+}
+.design-banner h2 span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+.banner-slide {
+    text-align: center;
+}
+.banner-slide .slick-dots {
+    margin-top: 50px;
+}
+.banner-slide .slick-dots li {
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner-slide .slick-dots li button {
+    width: 7px;
+    height: 7px;
+    margin: 0 10px;
+    font-size: 0;
+    background: #222;
+    opacity: 0.5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.banner-slide .slick-dots li:hover button,
+.banner-slide .slick-dots li.slick-active button {
+    opacity: 1;
+}
