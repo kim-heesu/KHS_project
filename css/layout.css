@@ -164,7 +164,8 @@ html {
 }
 .page-box {
     position: relative;
-    height: 31vh;
+    height: auto;
+    text-align: center;
     border: 1px solid #ddd;
 }
 .page-box a {
