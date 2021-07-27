@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lalalounge</title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../../css/sub_layout.css">
+    <link rel="stylesheet" type="text/css" href="../../css/slick.css">
+
+    <script type="text/javascript" src="../../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../js/common.js"></script>
+    <script type="text/javascript" src="../../js/agree_area.js"></script>
+
+    <!--[if IE 9]>
+    <script type="text/javascript" src="../../js/media.match.min.js"></script>
+    <script type="text/javascript" src="../../js/placeholder.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>-->
+    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+    <!--<![endif]-->
+</head>
+<body>
+<div id="skip-navigation">
+    <a href="#category">전체상품목록 바로가기</a>
+    <a href="#container">본문 바로가기</a>
+</div>
+
+<div id="wrap">
+    <!--header-->
+    <div class="header">
+        <div class="inner">
+            <ul class="simple-nav">
+                <li>
+                    <a href="../../order/order_form.html">주문서 바로가기</a>
+                </li>
+                <li>
+                    <a href="../../good/cart.html">장바구니</a>
+                </li>
+                <li>
+                    <a href="../../member/login.html">로그인</a>
+                </li>
+                <li>
+                    <a href="../../mypage/order_list.html">마이페이지</a>
+                </li>
+            </ul>
+        </div>
+        <div class="simple-title">
+            <div class="inner">
+                <h2 class="necessary">1:1문의</h2>
+                <p>결제부터 주문관리까지 한방에 처리하는 블로그페이!</p>
+                <a href="#" class="display-w"><i class="ico-simple-home"></i>Blogpay shop</a>
+            </div>
+            <a href="#" class="display-m"><i class="ico-simple-home"></i>Blogpay shop</a>
+        </div>
+    </div>
+    <!--//header-->
+
+    <div class="board-1n1-write">
+        <div class="sub-inner">
+            <h4 class="sub-title text-center">1:1문의</h4>
+            <div class="table table-type2 info-table">
+                <ul>
+                    <li>
+                        <span>문의유형</span>
+                    </li>
+                    <li>
+                        <select>
+                            <option>구매문의</option>
+                            <option>상품문의</option>
+                            <option>배송문의</option>
+                            <option>취소/교환/반품문의</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span class="necessary">
+                            이름
+                        </span>
+                    </li>
+                    <li>
+                        <input type="text" class="input-sm input-type1" placeholder="이름 입력">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span class="necessary">
+                            전화번호
+                        </span>
+                    </li>
+                    <li class="inline-block-area">
+                        <div class="phone-num">
+                            <select>
+                                <option>010</option>
+                                <option>011</option>
+                                <option>017</option>
+                                <option>02</option>
+                                <option>031</option>
+                            </select>
+                            <span>-</span>
+                            <input type="text" class="input-type1" maxlength="4">
+                            <span>-</span>
+                            <input type="text" class="input-type1" maxlength="4">
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span class="necessary">
+                            제목
+                        </span>
+                    </li>
+                    <li>
+                        <input type="text" class="input-block input-type1" placeholder="제목 입력">
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span class="necessary">
+                            내용
+                        </span>
+                    </li>
+                    <li>
+                        <textarea placeholder="내용을 입력하시기 바랍니다."></textarea>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span class="necessary">
+                            비밀번호
+                        </span>
+                    </li>
+                    <li>
+                        <input type="password" class="input-sm input-type1" placeholder="&#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679;">
+                        <span class="guide-text">(작성글 수정시 필요한 비밀번호 입니다.)</span>
+                    </li>
+                </ul>
+                <!--관리자가 비밀글로 설정했을 경우 나옵니다-->
+                <ul>
+                    <li>비밀글</li>
+                    <li>관리자만 볼 수 있는 비밀글입니다.</li>
+                </ul>
+                <!--// 관리자가 비밀글로 설정했을 경우 나옵니다-->
+                <ul>
+                    <li>첨부파일</li>
+                    <li>
+                        <div class="file-area">
+                            <label for="ex_file">
+                                <input type="file" id="ex_file">
+                                <span class="plus"></span>
+                            </label>
+                        </div>
+                        <div class="file-area">
+                            <img src="../../images/sub_page/product_thumb01.jpg" alt="product img">
+                            <span class="delete"></span>
+                        </div>
+                        <span class="guide-text text-red">* 첨부파일은 5개 까지 업로드가 가능합니다.</span>
+                    </li>
+                </ul>
+                <!--문의 작성이아닌 수정일 경우 보안문자는 나오지 않습니다.-->
+                <ul>
+                    <li>
+                        <span class="necessary">
+                            보안문자
+                        </span>
+                    </li>
+                    <li class="captcha-area">
+                        <img src="../../images/sub_page/img_captcha.png" alt="captcha images">
+                        <button type="button" class="ico-refresh btn-refresh"></button>
+                        <input type="text" maxlength="6" class="input-type1 input-sm" placeholder="보안문자 이미지에 보이는 문자 입력">
+                    </li>
+                </ul>
+                <!--// 문의 작성이아닌 수정일 경우 보안문자는 나오지 않습니다.-->
+            </div>
+            <!--agree_area.js-->
+            <div class="agree-area">
+                <label for="agree1" class="input-chk">
+                    <input type="checkbox" id="agree1" name="agree1" class="chk">
+                    <span>개인정보 수집 및 이용 동의</span>
+                </label>
+                <button type="button" class="btn-lightgray btn-agree">내용보기</button>
+                <div class="agree">
+                    <ul>
+                        <li>수집항목 : 이름,전화번호,이메일주소</li>
+                        <li>수집/이용목적 : 게시글 접수 및 결과 회신</li>
+                        <li>이용기간 : 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.<br>
+                            단, 관계법력의 규정에 의하여 보전할 필요가 있는 경우 일정기간 동안 개인정보를 보관할 수 있습니다.<br>
+                            그밖의 사항은 개인정보처리방침을 준수합니다.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--//agree_area.js-->
+            <div class="btn-area">
+                <button type="button" class="btn-white" onclick="location.href='../list/board_1n1_list.html'">취소하기</button>
+                <button type="button" class="btn-black">등록하기</button>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="inner">
+            <div class="footer-tit clearfix">
+                <p>상품 주문, 배송 및 환불의 의무와 책임은 판매업체에 있음을 알려드립니다. 아래의 판매업체 정보를 확인해주세요.</p>
+                <ul>
+                    <li>
+                        <a href="../board_privacy.html">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="../board_guide.html">이용약관</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="shop-info">
+                <ul class="info-list">
+                    <li>
+                        <em>상호</em>
+                        <span>블로그페이 (대표 홍길동)</span>
+                    </li>
+                    <li>
+                        <em>통신판매업 번호</em>
+                        <span>제 2012-서울구로-0239호</span>
+                    </li>
+                    <li>
+                        <em>고객센터</em>
+                        <span>070-0000-0000</span>
+                    </li>
+                </ul>
+                <ul class="info-list">
+                    <li>
+                        <em>주소</em>
+                        <span>서울 구로구 디지털로26길 61 에이스하이엔드타워2차 12층 1203호 (주)유디아이디</span>
+                    </li>
+                    <li>
+                        <em>이메일</em>
+                        <span>payapp@udid.co.kr</span>
+                    </li>
+                </ul>
+                <ul class="info-list">
+                    <li>
+                        <em>사업자등록번호</em>
+                        <span>113-86-56537<a href="#">[사업자번호확인]</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="final-info clearfix">
+                <img src="../../images/common/escro.png" alt="payapp escro">
+                <span>Hosting by <strong>blogpay.</strong></span>
+            </div>
+        </div>
+    </div>
+    <!--//footer-->
+</div>
+<!-- // wrap -->
+
+</body>
+</html>
+

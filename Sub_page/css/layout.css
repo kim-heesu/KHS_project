@@ -1,0 +1,374 @@
+/* ----------------------------------------------------------------
+	common style
+---------------------------------------------------------------- */
+.display-hide {
+    display: none!important;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.3rem;
+    font-size: 13px;
+    color: #000;
+}
+
+input {
+    border: 0;
+    outline: 0;
+}
+
+button {
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a, img {
+    vertical-align: middle;
+    outline: 0;
+}
+
+a:focus,
+a:active,
+button:focus,
+button:active {
+    outline: 0
+}
+
+i {
+    text-indent: -9999px;
+}
+
+small {
+    font-size: 11px;
+}
+
+#wrap {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#skip-navigation {
+    position: absolute;
+    left: -3000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    text-indent: -10000px;
+}
+
+.inner{
+    position: relative;
+    max-width: 1200px;
+    margin: 25px auto;
+    font-size: 13px;
+}
+
+.inner:after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+#wrap * img {
+    max-width: 100%;
+}
+
+@media ( max-width: 1024px ) {
+    .inner {
+        max-width: none;
+        padding: 0 20px;
+        margin: 15px auto;
+    }
+}
+
+@media ( max-width: 540px ) {
+    html {
+        font-size: 50%;
+    }
+
+    .inner {
+        padding: 0 10px;
+        margin: 15px auto;
+    }
+}
+/* ----------------------------------------------------------------
+	col width style
+---------------------------------------------------------------- */
+*[class*="col-"] {
+    float: left;
+    position: relative;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66666666666666%;
+}
+
+.col-10 {
+    width: 83.33333333333334%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66666666666666%;
+}
+
+.col-7 {
+    width: 58.333333333333336%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66666666666667%;
+}
+
+.col-4 {
+    width: 33.33333333333333%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 16.666666666666664%;
+}
+
+.col-1 {
+    width: 8.333333333333332%;
+}
+
+/* ----------------------------------------------------------------
+	icon
+---------------------------------------------------------------- */
+.ico-simple-home {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 14px;
+    height: 15px;
+    background: url("../images/common/ico_simple_home.png") no-repeat
+}
+
+@media (max-width:768px) {
+    .ico-simple-home {
+        vertical-align: top;
+    }
+}
+/* ----------------------------------------------------------------
+	header
+---------------------------------------------------------------- */
+.header .simple-nav {
+    text-align: right;
+}
+
+.header .simple-nav li {
+    display: inline-block;
+    padding-right: 35px;
+    color: #777;
+}
+
+.header .simple-nav li:hover {
+    text-decoration: underline;
+}
+
+.header .simple-nav li:last-of-type {
+    padding-right: 0;
+}
+
+.header .simple-title {
+    border: solid #e8e8e8;
+    border-width: 1px 0;
+    background: #f8f8f8;
+}
+
+.header .simple-title .inner * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header .simple-title h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 35px;
+}
+
+.header .simple-title a {
+    float: right;
+}
+
+@media (max-width:768px) {
+    .header .simple-nav li {
+        font-size: 11px;
+        color: #bbb;
+        padding: 0 5px;
+    }
+
+    .header .simple-title {
+        background: #000;
+        color: #fff;
+    }
+
+    .header .simple-title .inner * {
+        display: inherit;
+    }
+
+    .header .simple-title h2 {
+        font-size: 14px;
+    }
+
+    .header .simple-title p {
+        display: block;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
+    .header .simple-title a {
+        display: block;
+        float: none;
+        background: #f8f8f8;
+        padding: 15px 10px;
+        border-bottom: 1px solid #e8e8e8;
+        font-size: 11px;
+    }
+}
+
+/*footer*/
+.footer {
+    padding: 15px 0 20px;
+    background: #f9f9f9;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+.footer .footer-tit {
+
+}
+
+.footer .footer-tit p {
+    float: left;
+    font-size: 13px;
+    color: #666;
+}
+
+.footer .footer-tit ul {
+    float: right;
+}
+
+.footer .footer-tit ul li a {
+    font-size: 12px;
+    color: #000;
+}
+
+.footer .footer-tit ul li:first-child:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 12px;
+    margin: 0 10px;
+    background: #ddd;
+}
+
+.footer .shop-info {
+    font-size: 11px;
+    color: #888;
+    margin: 20px 0 25px;
+}
+
+.footer .shop-info ul {
+    margin-bottom: 5px;
+}
+
+.footer .shop-info .info-list li em:after {
+    content: ":";
+    margin-left: 5px;
+}
+
+.footer .shop-info ul li:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1px;
+    height: 10px;
+    margin: 0 4px 1px;
+    background: #ddd;
+}
+
+.footer .shop-info ul li:last-of-type:after {
+    content: none;
+}
+
+.footer .shop-info a {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.footer .final-info span {
+    margin-top: 20px;
+    float: right;
+    font-size: 11px;
+    color: #888;
+}
+
+.footer .final-info span strong {
+    color: #000;
+}
+
+@media (max-width:768px) {
+    .footer {
+        padding: 5px 0 10px;
+    }
+    .footer .footer-tit p {
+        float: none;
+        font-size: 11px;
+        padding-bottom:10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .footer .footer-tit ul {
+        float: none;
+        margin: 10px 0;
+    }
+
+    .footer .footer-tit ul li a {
+        font-size: 11px;
+    }
+
+    .footer .shop-info ul {
+        margin-bottom: 0;
+    }
+
+    .footer .shop-info ul li {
+        margin-bottom: 5px;
+    }
+
+    .footer .shop-info ul li:after {
+        content: none;
+    }
+
+    .footer .final-info span {
+        display: block;
+        float: none;
+    }
+
+}
