@@ -1,0 +1,1928 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lalalounge</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/layout.css">
+    <link rel="stylesheet" type="text/css" href="../css/sub_layout.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css">
+
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/product_view.js"></script>
+    <script type="text/javascript" src="../js/payment_method.js"></script>
+    <script type="text/javascript" src="../js/order_form.js"></script>
+    <script type="text/javascript" src="../js/modal.js"></script>
+    <script type="text/javascript" src="../js/agree_area.js"></script>
+    <script type="text/javascript" src="../js/slick.min.js"></script>
+
+    <!--[if IE 9]>
+    <script type="text/javascript" src="../js/media.match.min.js"></script>
+    <script type="text/javascript" src="../js/placeholder.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>-->
+    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+    <!--<![endif]-->
+</head>
+<body>
+<div id="skip-navigation">
+    <a href="#category">전체상품목록 바로가기</a>
+    <a href="#container">본문 바로가기</a>
+</div>
+
+<div id="wrap">
+    <!--header-->
+    <div class="header">
+        <div class="inner">
+            <ul class="simple-nav">
+                <li>
+                    <a href="../order/order_form.html">장바구니</a>
+                </li>
+                <li>
+                    <a href="../member/login_member.html">로그인<!--로그아웃--></a>
+                </li>
+<!--
+로그인한경우
+                <li>
+                    <a href="../board/list/board_1n1_list.html">마이페이지</a>
+                </li>
+                <li>
+                    <a href="../board/list/board_1n1_list.html">1:1문의</a>
+                </li>
+                -->
+
+                <!--로그인 안한경우-->
+                <li>
+                    <a href="../board/list/board_1n1_list.html">회원가입</a>
+                </li>
+                <!--//로그인 안한경우-->
+            </ul>
+        </div>
+        <div class="simple-title">
+            <div class="inner">
+                <h2 class="necessary">주문서 작성</h2>
+                <p>결제부터 주문관리까지 한방에 처리하는 블로그페이!</p>
+                <a href="#" class="display-w"><i class="ico-simple-home"></i>Blogpay shop</a>
+            </div>
+            <a href="#" class="display-m"><i class="ico-simple-home"></i>Blogpay shop</a>
+        </div>
+    </div>
+    <!--//header-->
+
+    <div class="order-page order-form">
+        <div class="sub-inner">
+
+            <!--상품하나일경우-->
+            <div class="head-info-wrap option clearfix">
+                <div class="thumb-group float_l">
+                    <div class="img-wrap">
+                        <div class="label-box circle-box">
+                            <!--관리자에서 백그라운드 컬러와 안에 들어가는 텍스트를 수정할수있는 라벨 입니다.-->
+                            <span class="label label-circle" style="background: #b6c1db;"><b>묶음배송</b></span>
+                            <!--//관리자에서 백그라운드 컬러와 안에 들어가는 텍스트를 수정할수있는 라벨 입니다.-->
+                            <span class="label label-circle label-overseas"><b>해외배송</b></span>
+                            <span class="label label-circle label-coupon"><b>쿠폰</b></span>
+                        </div>
+                        <ul class="clearfix" id="thumb-slider">
+                            <li><img src="../images/sub_page/product_thumb04.jpg" alt="" class="thumb"></li>
+                            <li><img src="../images/sub_page/product_thumb05.jpg" alt="" class="thumb"></li>
+                            <li><img src="../images/sub_page/product_thumb03.jpg" alt="" class="thumb"></li>
+                        </ul>
+                        <div class="slider-counter"></div>
+                    </div>
+                    <div class="time-count clearfix">
+                        <div class="float_l">
+                            <p class="text-red">타임세일</p>
+                            <span>898일 06:08:34</span>
+                        </div>
+                        <span class="float_r">8개 판매</span>
+                        <button type="button" class="btn-white btn-block btn-prod-detail display-w btn-modal-open" name="productInfo">상세설명보기<i class="ico-btn-more"></i></button>
+                    </div>
+                </div>
+                <div class="info-group float_r">
+                    <div class="info">
+                        <div class="box-intro">
+                            <h4 class="ellipsis clearfix">HOUND TOOTH CHECK JACKET_BROWN<button class="ico-prod-share btn-modal-open" name="snsShare"></button></h4>
+                            <p class="text-red">★첫세일! 단독특가! 500장 한정★</p>
+                            <div class="price clearfix">
+                                <div class="float_l">
+                                    <span><em>145,900</em>원</span>
+                                    <del>160,000원</del>
+                                </div>
+                            </div>
+                        </div>
+                        <dl class="clearfix essential">
+                            <dt>원산지</dt>
+                            <dd>인도네시아</dd>
+                            <dt>제조사</dt>
+                            <dd>블로그페이</dd>
+                            <dt class="mt5 display-w">수량</dt>
+                            <dd class="display-w">
+                                <div class="count-box">
+                                    <button class="minus"></button>
+                                    <input type="text" value="1" maxlength="4">
+                                    <button class="plus"></button>
+                                </div>
+                            </dd>
+                            <dt class="mt2">사은품</dt>
+                            <dd>
+                                <span>사은품 증정</span>
+                                <button type="button" class="btn-white btn-xsm btn-modal-open" name="moreGiftInfo">상세보기</button>
+                            </dd>
+                        </dl>
+                        <button type="button" class="btn-white btn-block btn-prod-detail display-m btn-modal-open" name="productInfo">상세설명보기<i class="ico-btn-more"></i></button>
+                        <!-- js -> more_info.js -->
+                        <div class="option-select">
+                            <ul class="option">
+                                <li>
+                                    <p class="tit">옵션선택</p>
+                                    <div class="opt-sel">
+                                        <select name="" id="" class="select-block">
+                                            <option value="">[필수] 색상 선택</option>
+                                            <option value="">브라운</option>
+                                            <option value="">블랙</option>
+                                            <option value="">레드</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="tit">옵션선택</p>
+                                    <div class="opt-sel">
+                                        <input type="text" placeholder="[필수] 색상 입력" class="input-lg input-type2">
+                                        <div class="input-opt">
+                                            <span>+<em>5,000원</em></span>
+                                            <button type="button" class="btn-black btn-xsm">입력완료</button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="tit">추가구성옵션</p>
+                                    <div class="opt-sel">
+                                        <select name="" id="" class="select-block">
+                                            <option value="">추가구성옵션</option>
+                                            <option value="">브라운</option>
+                                            <option value="">블랙</option>
+                                            <option value="">레드</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="option-result">
+                                <li>
+                                    <span class="opt-tit">브라운(M)</span>
+                                    <div class="opt-info">
+                                        <div class="count-box">
+                                            <button class="minus"></button>
+                                            <input type="text" value="1" maxlength="4">
+                                            <button class="plus"></button>
+                                        </div>
+                                        <div class="opt-price">
+                                            <span>145,900원</span>
+                                            <button class="x-btn"></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="opt-tit">브라운(L)</span>
+                                    <div class="opt-info">
+                                        <div class="count-box">
+                                            <button class="minus"></button>
+                                            <input type="text" value="1" maxlength="4">
+                                            <button class="plus"></button>
+                                        </div>
+                                        <div class="opt-price">
+                                            <span>145,900원</span>
+                                            <button class="x-btn"></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="opt-tit">추가구성상품</span>
+                                    <div class="opt-info">
+                                        <div class="count-box">
+                                            <button class="minus"></button>
+                                            <input type="text" value="1" maxlength="4">
+                                            <button class="plus"></button>
+                                        </div>
+                                        <div class="opt-price">
+                                            <span>5,000원</span>
+                                            <button class="x-btn"></button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="total-result-area">
+                                <dl class="clearfix">
+                                    <dt>총 상품금액</dt>
+                                    <dd>10,000원</dd>
+                                    <dt>배송비<button type="button" class="btn-modal-open" name="deliveryPrice"><i class="ico-question circle"></i></button></dt>
+                                    <dd>+ <span>2,500</span>원</dd>
+                                    <dt>적립금</dt>
+                                    <dd>- <span>10,000</span>원</dd>
+                                    <dt>상품할인</dt>
+                                    <dd>- <span>10,000</span>원<em>(회원 특별할인 10%)</em></dd>
+                                    <dt>상품 할인 이벤트<button type="button" class="btn-modal-open" name="productSaleEvent"><i class="ico-question circle"></i></button></dt>
+                                    <dd>- <span>10,000</span>원</dd>
+                                </dl>
+                                <dl class="total-result clearfix">
+                                    <dt>총 주문금액</dt>
+                                    <dd><strong>299,300</strong>원</dd>
+                                </dl>
+                            </div>
+                            <button type="button" class="btn-block btn-black">장바구니</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--//상품하나일경우-->
+
+            <!--장바구니에서 구매하기 눌렀을 경우-->
+            <h4 class="sub-title-type2">주문상품 내역</h4>
+            <div class="table table-type1">
+                <div class="first-product">
+                    <ul>
+                        <li class="product-info clearfix">
+                            <div class="thumb">
+                                <!--<img src="../images/product_thumb01.jpg" alt="product img">-->
+                                <!-- 이미지 없을 경우 -->
+                                <div class="no-image">
+                                    <img src="../images/sub_page/noimage.png" alt="no image">
+                                </div>
+                            </div>
+                            <div class="text-area">
+                                <div class="label-box">
+                                    <!--관리자에서 백그라운드 컬러와 안에 들어가는 텍스트를 수정할수있는 라벨 입니다.-->
+                                    <span class="label" style="background: #b6c1db;">묶음배송</span>
+                                    <!--//관리자에서 백그라운드 컬러와 안에 들어가는 텍스트를 수정할수있는 라벨 입니다.-->
+                                    <span class="label label-overseas">해외배송</span>
+                                    <span class="label label-coupon">쿠폰</span>
+                                </div>
+                                <p class="product-name ellipsis">HOUND TOOTH CHECK JACKET_BROWN HOUND TOOTH CHECK JACKET_BROWN</p>
+                                <div class="product-option">
+                                    <span>브라운 : M (1개)</span>
+                                    <span>브라운 : L (1개)</span>
+                                </div>
+                                <!--필수 옵션 선택을 한줄로-->
+                                <div class="gift-option">
+                                    <span>사은품 1 : 20s/s 미니어쳐샘플</span>
+                                    <span>사은품 2 : 사은품 이름</span>
+                                    <span>사은품 3 : 사은품 이름 123</span>
+                                </div>
+                                <!--추가구성 선택 상품은 여러줄로-->
+                                <div class="price-area">
+                                    <span class="product-price">145,900원</span>
+                                    <span class="product-amount">수량 1개</span>
+                                    <span>적립금 145원</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!--사은품이 상품마다 각각 있을 경우-->
+                    <div class="table table-type2 prod-gift-table">
+                        <ul>
+                            <li class="necessary">사은품 1</li>
+                            <li>
+                                <select>
+                                    <option>사은품을 선택해주세요</option>
+                                    <option>사은품1</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>사은품 2</li>
+                            <li>20s/s 미니어쳐샘플</li>
+                        </ul>
+                        <ul>
+                            <li>사은품 1</li>
+                            <li>사은품 이름</li>
+                        </ul>
+                    </div>
+                    <!--//사은품이 상품마다 각각 있을 경우-->
+                </div>
+                <ul>
+                    <li class="product-info clearfix">
+                        <div class="thumb">
+                            <img src="../images/sub_page/product_thumb01.jpg" alt="product img">
+                            <!-- 이미지 없을 경우 -->
+                            <!--<div class="no-image">
+                                <img src="../images/sub_page/noimage.png" alt="no image">
+                            </div>-->
+                        </div>
+                        <div class="text-area">
+                            <p class="product-name ellipsis">HOUND TOOTH CHECK JACKET_BROWN HOUND TOOTH CHECK JACKET_BROWN</p>
+                            <div class="product-option">
+                                <span>브라운 : M (1개)</span>
+                                <span>브라운 : L (1개)</span>
+                            </div>
+                            <!--필수 옵션 선택을 한줄로-->
+                            <div class="gift-option">
+                                <span>사은품 1 : 20s/s 미니어쳐샘플</span>
+                                <span>사은품 2 : 사은품 이름</span>
+                                <span>사은품 3 : 사은품 이름 123</span>
+                            </div>
+                            <!--추가구성 선택 상품은 여러줄로-->
+                            <div class="price-area">
+                                <span class="product-price">145,900원</span>
+                                <span class="product-amount">수량 1개</span>
+                                <span>적립금 145원</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!--사은품이 상품마다 각각 있을 경우-->
+                <div class="table table-type2 prod-gift-table">
+                    <ul>
+                        <li class="necessary">사은품 1</li>
+                        <li>
+                            <select>
+                                <option>사은품을 선택해주세요</option>
+                                <option>사은품1</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>사은품 2</li>
+                        <li>20s/s 미니어쳐샘플</li>
+                    </ul>
+                    <ul>
+                        <li>사은품 1</li>
+                        <li>사은품 이름</li>
+                    </ul>
+                </div>
+                <!--//사은품이 상품마다 각각 있을 경우-->
+                <div class="btn-area display-m">
+                    <button class="btn-order-detail">총
+                        <em class="text-red">2건</em>
+                        전체보기
+                        <em>닫기</em><span class="btn-table-toggle"></span>
+                    </button>
+                </div>
+            </div>
+            <!--//장바구니에서 구매하기 눌렀을 경우-->
+
+            <h4 class="sub-title-type2 table-toggle">사은품<span class="btn-table-toggle"></span></h4>
+            <div class="table table-type2 info-table toggle-table">
+                <ul>
+                    <li>
+                        <span class="necessary">사은품 1</span>
+                    </li>
+                    <li>
+                        <select>
+                            <option>사은품을 선택해 주세요</option>
+                            <option>사은품1</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        사은품 2
+                    </li>
+                    <li class="input-form1">
+                        20s/s 미니어쳐 샘플
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        사은품 2
+                    </li>
+                    <li class="input-form1">
+                        사은품 이름
+                    </li>
+                </ul>
+            </div>
+
+            <h4 class="sub-title-type2 table-toggle">주문자 정보<span class="btn-table-toggle"></span></h4>
+            <div class="table table-type2 info-table toggle-table">
+                <ul>
+                    <li>
+                        <span class="necessary">아이디</span>
+                    </li>
+                    <li class="input-form1 login-form">
+                        <input type="text" class="input-sm input-type1" placeholder="이름 입력">
+                        <!--로그인, 회원가입 버튼은 비회원일 경우에만 나옵니다-->
+                        <button type="button" class="btn-lightgray btn-join">회원가입</button>
+                        <!--//비회원일 경우에만 나옵니다-->
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span class="necessary">휴대폰 번호</span>
+                    </li>
+                    <li class="inline-block-area">
+                        <div class="phone-num">
+                            <select>
+                                <option>010</option>
+                                <option>011</option>
+                                <option>017</option>
+                                <option>02</option>
+                                <option>031</option>
+                            </select>
+                            <span>-</span>
+                            <input type="text" maxlength="4" class="input-type1">
+                            <span>-</span>
+                            <input type="text" maxlength="4" class="input-type1">
+                        </div>
+                    </li>
+                </ul>
+                <!--이메일은 회원인 경우에만 나옵니다-->
+                <ul>
+                    <li>
+                        <span class="necessary">이메일</span>
+                    </li>
+                    <li class="input-form1">
+                        <input type="text" class="input-sm input-type1" placeholder="이메일을 입력해주세요">
+                    </li>
+                </ul>
+                <!--//이메일은 회원인 경우에만 나옵니다-->
+            </div>
+
+           <!-- payment_method.js-->
+            <!--비회원일 경우 주문자명의 회원가입 버튼 클릭시 나옵니다-->
+            <div class="join-table display-hide">
+                <h4 class="sub-title-type2 table-toggle">회원가입 정보<span class="btn-table-toggle"></span></h4>
+                <div class="table table-type2 info-table toggle-table">
+                    <ul>
+                        <li>
+                            <span class="necessary">아이디</span>
+                        </li>
+                        <li class="input-form1">
+                            <input type="text" class="input-sm input-type1" placeholder="이름 입력">
+                            <button type="button" class="btn-black">중복확인</button>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span class="necessary">새 비밀번호</span>
+                        </li>
+                        <li>
+                            <input type="password" maxlength="15" class="input-sm input-type1" placeholder="&#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679;">
+                            <span class="guide-text">(비밀번호는 숫자,영문조합으로 6~15자리)</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span class="necessary">비밀번호 확인</span>
+                        </li>
+                        <li>
+                            <input type="password" maxlength="15" class="input-sm input-type1" placeholder="&#9679; &#9679; &#9679; &#9679; &#9679; &#9679; &#9679;">
+                            <span class="guide-text text-red">비밀번호가 일치하지 않습니다.</span>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <span class="necessary">이메일</span>
+                        </li>
+                        <li>
+                            <input type="text" class="input-sm input-type1" placeholder="이메일 입력">
+                            <label for="phone" class="input-chk">
+                                <input type="checkbox" id="phone" name="phone" class="chk">
+                                <span>수신거부</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--//비회원일 경우 주문자명의 회원가입 버튼 클릭시 나옵니다-->
+
+            <h4 class="sub-title-type2 table-toggle">받으시는 분 정보<span class="btn-table-toggle"></span><button type="button" class="btn-white btn-title-view btn-modal-open" name="addressView">최근배송지</button></h4>
+            <div class="table table-type2 info-table toggle-table">
+                <ul>
+                    <li>
+                        <span>수령자 명</span>
+                    </li>
+                    <li>
+                        <input type="text" class="input-sm input-type1" placeholder="이름 입력">
+                        <label for="name1" class="input-chk">
+                            <input type="checkbox" id="name1" name="name1" class="chk">
+                            <span>주문자 정보와 같음</span>
+                        </label>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span>휴대폰 번호</span>
+                    </li>
+                    <li class="inline-block-area">
+                        <div class="phone-num">
+                            <select>
+                                <option>010</option>
+                                <option>011</option>
+                                <option>017</option>
+                                <option>02</option>
+                                <option>031</option>
+                            </select>
+                            <span>-</span>
+                            <input type="text" maxlength="4" class="input-type1">
+                            <span>-</span>
+                            <input type="text" maxlength="4" class="input-type1">
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span>연락처</span>
+                    </li>
+                    <li class="inline-block-area">
+                        <div class="phone-num">
+                            <select>
+                                <option>02</option>
+                                <option>070</option>
+                                <option>031</option>
+                                <option>010</option>
+                                <option>011</option>
+                            </select>
+                            <span>-</span>
+                            <input type="text" maxlength="4" class="input-type1">
+                            <span>-</span>
+                            <input type="text" maxlength="4" class="input-type1">
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span>수령주소</span>
+                    </li>
+                    <li>
+                        <div class="input-form1">
+                            <input type="text" value="12345" class="input-type1" readonly>
+                            <button type="button" class="btn-black ">우편번호 검색</button>
+                        </div>
+                        <div class="input-form1">
+                            <input type="text" class="input-type1 input-md" value="서울 구로구 디지털로26길 61 (구로동, 에이스하이엔드타워 2차)" readonly>
+                            <span class="guide-text display-w">기본주소</span>
+                        </div>
+                        <div class="input-form1">
+                            <input type="text" class="input-type1 input-md" value="1203호 유디아이디">
+                            <span class="guide-text display-w">나머지 주소</span>
+                            <p class="guide-text text-red">도서 산간 지역에 대한 추가 배송비 600원이 적용되었습니다.</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <span>배송 시 요청사항</span>
+                    </li>
+                    <li>
+                        <input type="text" class="input-type1 input-md" placeholder="배송 시 요청사항을 입력하세요.">
+                    </li>
+                </ul>
+            </div>
+
+            <h4 class="sub-title-type2 table-toggle close">적립금 선택<span class="btn-table-toggle active"></span></h4>
+            <div class="table table-type2 table-toggle info-table toggle-table">
+                <ul class="point-info">
+                    <li>
+                        <span>적립금</span>
+                    </li>
+                    <li>
+                        <div class="input-form1">
+                            <input type="text" value="300" class="input-type1">
+                            <button type="button" class="btn-black ">사용하기</button>
+                            <span class="order-point">보유 적립금 <strong>2,000</strong>원</span>
+                        </div>
+                        <ul class="guide-text">
+                            <li>적립금은 사용가능한 보유 적립금이 3,000원 이상이면 구매 시 사용 가능하며<br>
+                                적립금 사용가능 최소 총 주문금액은 10,000원 입니다.
+                            </li>
+                            <li>적립금으로만 결제할 경우, 결제금액이 0으로 보여지는 것은 정상이며<br>
+                                [결제하기] 버튼을 누르면 주문이 완료됩니다.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <h4 class="sub-title-type2 table-toggle close">쿠폰할인<span class="btn-table-toggle active"></span></h4>
+            <div class="table table-type2 table-toggle info-table toggle-table">
+                <ul>
+                    <li>
+                        <span>보유 쿠폰 할인</span>
+                    </li>
+                    <li>
+                        <div class="input-form1">
+                            <input type="text" value="300" class="input-type1" readonly>
+                            <button type="button" class="btn-black btn-modal-open" name="orderCoupon">쿠폰선택</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="banner-area naverpay-banner">
+                <img src="../images/sub_page/banner_naverpay_text.png" alt="naver pay banner text" class="display-w">
+            </div>
+            <!-- 네이버페이 배너 사용 시 -->
+
+            <!--<a href="http://www.blogpay.co.kr/submenu/event/payco.html" target="_blank" class="banner-area payco-banner"></a>-->
+            <!-- 페이코 배너 사용 시 -->
+
+            <h4 class="sub-title-type2 table-toggle clearfix">
+                결제수단
+                <span class="btn-table-toggle"></span>
+                <button type="button" class="event-detail btn-modal-open display-w" name="orderCardEvent">카드 무이자 행사안내<i class="ico-btn-more"></i></button>
+            </h4>
+
+            <div class="toggle-table">
+                <button type="button" class="event-detail btn-modal-open display-m" name="orderCardEvent">카드 무이자 행사안내<i class="ico-btn-more"></i></button>
+                <ul class="payment-method">
+                    <li class="active payment-list" data-name="paymentSimpleCard">
+                        <i class="ico-payment-simplecard"></i>
+                        <span>신용카드(간편)</span>
+                    </li>
+                    <li class="payment-list" data-name="paymentEmpty">
+                        <i class="ico-payment-card"></i>
+                        <span>신용카드</span>
+                    </li>
+                    <li class="payment-list naver-pay" data-name="paymentNaverPay">
+                        <i class="ico-payment-naverpay"></i>
+                        <span>네이버페이</span>
+                    </li>
+                    <li class="payment-list kakaopay" data-name="paymentReceipts">
+                        <i class="ico-payment-kakaopay"></i>
+                        <span>카카오페이</span>
+                    </li>
+                    <li class="payment-list payco" data-name="paymentPayco">
+                        <i class="ico-payment-payco"></i>
+                        <span>페이코</span>
+                    </li>
+                    <li class="payment-list" data-name="paymentEmpty">
+                        <i class="ico-payment-phone"></i>
+                        <span>휴대전화</span>
+                    </li>
+                    <li class="payment-list" data-name="paymentReceipts">
+                        <i class="ico-payment-transfer"></i>
+                        <span>계좌이체</span>
+                    </li>
+                    <li class="payment-list" data-name="paymentReceipts">
+                        <i class="ico-payment-account"></i>
+                        <span>가상계좌</span>
+                    </li>
+                    <li class="payment-list" data-name="paymentBank">
+                        <i class="ico-payment-bank"></i>
+                        <span>무통장입금</span>
+                    </li>
+                    <li class="payment-list" data-name="paymentProxy">
+                        <i class="ico-payment-proxy"></i>
+                        <span>대리결제</span>
+                    </li>
+                    <li class="payment-list" data-name="paymentEmpty">
+                        <i class="ico-payment-point"></i>
+                        <span>적립금(쿠폰)</span>
+                    </li>
+                </ul>
+
+                <!--paymentEmpty-->
+                <div class="payment-table display-hide" id="paymentEmpty">
+                    <ul class="guide-text">
+                        <li>주문 변경 시 카드사 혜택 및 할부 적용 여부는 해당 카드사 정책에 따라 변경될 수 있습니다.</li>
+                    </ul>
+                </div>
+                <!--//paymentEmpty-->
+
+                <!--paymentSimpleCard-->
+                <div class="payment-table card-info" id="paymentSimpleCard">
+                    <div class="table table-type2 info-table">
+                        <ul class="card-tab">
+                            <li>
+                                <span class="button-title">카드 종류</span>
+                            </li>
+                            <li>
+                                <button type="button" class="active personal">
+                                    <i class="ico-tab-check"></i>
+                                    개인카드
+                                </button>
+                                <button type="button" class="corporation">
+                                    <i class="ico-tab-check"></i>
+                                    법인카드
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="table table-type2">
+                            <ul>
+                                <li>
+                                    <span class="necessary">카드번호</span>
+                                </li>
+                                <li class="card-num">
+                                    <input type="text" maxlength="4" class="input-type1" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                                    <input type="text" maxlength="4" class="input-type1" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                                    <input type="text" maxlength="4" class="input-type1" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                                    <input type="text" maxlength="4" class="input-type1" placeholder="&#9679;&#9679;&#9679;&#9679;">
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="necessary">유효기간</span>
+                                </li>
+                                <li class="card-term">
+                                    <select>
+                                        <option>01월</option>
+                                        <option>02월</option>
+                                        <option>03월</option>
+                                        <option>04월</option>
+                                        <option>05월</option>
+                                        <option>06월</option>
+                                        <option>07월</option>
+                                        <option>08월</option>
+                                        <option>09월</option>
+                                        <option>10월</option>
+                                        <option>11월</option>
+                                        <option>12월</option>
+                                    </select>
+                                    <select>
+                                        <option>2020년</option>
+                                        <option>2021년</option>
+                                        <option>2022년</option>
+                                        <option>2023년</option>
+                                        <option>2024년</option>
+                                        <option>2025년</option>
+                                        <option>2026년</option>
+                                    </select>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="necessary">본인확인</span>
+                                </li>
+                                <li>
+                                    <input type="text" class="input-type1" placeholder="생년월일 6자리 입력">
+                                    <span class="guide-text personal">* 개인카드 - 생년월일 6자리</span>
+                                    <span class="guide-text corporation">* 법인카드 - 사업자번호 10자리</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="necessary">비밀번호</span>
+                                </li>
+                                <li>
+                                    <input type="password" maxlength="2" class="input-type1" placeholder="&#9679; &#9679;">
+                                    <span class="guide-text">* 비밀번호 앞자리 2자리</span>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <span class="necessary">할부개월</span>
+                                </li>
+                                <li>
+                                    <select>
+                                        <option>일시불</option>
+                                        <option>2개월</option>
+                                        <option>3개월</option>
+                                        <option>4개월</option>
+                                        <option>5개월</option>
+                                    </select>
+                                    <span class="guide-text">* 5만원 이상 가능</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="guide-text">
+                        <li>주문 변경 시 카드사 혜택 및 할부 적용 여부는 해당 카드사 정책에 따라 변경될 수 있습니다.</li>
+                    </ul>
+                    <h4 class="sub-title-type2">
+                        <!--agree_area.js-->
+                        <label for="simple-agree1" class="input-chk">
+                            <input type="checkbox" id="simple-agree1" name="simple-agree1" class="chk">
+                            <span>간편결제 전체동의</span>
+                        </label>
+                    </h4>
+                    <div class="table table-type1">
+                        <ul>
+                            <li class="agree-wrap clearfix">
+                                <label for="simple-agree1-1" class="input-chk">
+                                    <input type="checkbox" id="simple-agree1-1" name="simple-agree1-1" class="chk">
+                                    <span>전자금융거래 이용약관</span>
+                                </label>
+                                <button type="button" class="btn-agree">자세히 보기</button>
+                                <div class="agree">
+                                    <h5>제1조 (목적)</h5>
+                                    <p>이 약관은 주식회사 유디아이디(이하 '회사'라 합니다)가 제공하는 전자지급결제대행서비스 및 결제대금예치서비스를 이용자가 이용함에 있어 회사와 이용자 사이의 전자금융거래에 관한 기본적인 사항을 정함을 목적으로 합니다.</p>
+                                    <h5>제2조 (용어의 정의)</h5>
+                                    <p>이 약관에서 정하는 용어의 정의는 다음과 같습니다.</p>
+                                    <ul class="agree-list">
+                                        <li><span class="txt-num">①</span> '전자금융거래'라 함은 회사가 전자적 장치를 통하여 전자지급결제대행서비스 및 결제대금예치서비스(이하 '전자금융거래 서비스'라고 합니다)를 제공하고, 이용자가 회사의 종사자와 직접 대면하거나 의사소통을 하지 아니하고 자동화된 방식으로 이를 이용하는 거래를 말합니다. ‘전자적 장치’라 함은 전자금융거래정보를 전자적 방법으로 전송하거나 처리하는데 이용되는 장치로서 현금자동지급기, 자동입출금기, 지급용단말기, 컴퓨터, 전화기 그 밖에 전자적 방법으로 정보를 전송하거나 처리하는 장치를 말합니다.</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li class="agree-wrap clearfix">
+                                <label for="simple-agree1-2" class="input-chk">
+                                    <input type="checkbox" id="simple-agree1-2" name="simple-agree1-2" class="chk">
+                                    <span>간편결제 개인정보 처리방침 동의</span>
+                                </label>
+                                <button type="button" class="btn-agree">자세히 보기</button>
+                                <div class="agree">
+                                    <p>주식회사 유디아이디(이하 "회사")는 전자지급결제대행을 주목적으로 하는 기업으로서 이용자의 개인정보를 중요시하며, 전자금융거래법, 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 전자상거래 등에서의 소비자보호에 관한 법률, 전기통신사업법, 개인정보보호법 등에 관한 법률 및 행정기관의 행정지침을 준수하고, 관련 법령에 의거한 개인정보 처리방침을 정하여 이용자 권익을 보호하고 있습니다.</p>
+                                    <h5>1. 개인정보 수집 및 이용의 목적</h5>
+                                    <ul class="agree-list">
+                                        <li>
+                                            <span class="txt-num">1)</span> 전자금융거래서비스 제공에 관한 결제 정보 등 개인정보 수집
+                                            <ul>
+                                                <li>이용자가 구매한 재화나 용역의 대금 결제</li>
+                                                <li>제 과정 중 본인 식별, 인증, 실명확인 및 이용자가 결제한 거래의 내역을 요청하는 경우 응대 및 확인</li>
+                                                <li>이용자가 결제한 거래의 취소 또는 환불, 상품 배송 등 전자상거래 관련 서비스 제공</li>
+                                                <li>이용자가 결제한 대금의 청구 및 수납</li>
+                                                <li>전자금융거래 및 통신과금서비스이용이 불가능한 이용자(미성년자 등)와 불량ㆍ불법 이용자의 부정이용 방지</li>
+                                                <li>서비스 제공 및 관련 업무 처리에 필요한 동의 또는 철회 등 의사확인</li>
+                                                <li>회사가 제공하는 소비자보호법 메일 발송</li>
+                                                <li>고객 불만 및 민원처리</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <h5>2. 수집항목 및 수집방법</h5>
+                                    <ul class="agree-list">
+                                        <li>
+                                            <span class="txt-num">1)</span> 수집항목
+                                            <ul>
+                                                <li><strong>가. 전자금융거래서비스 이행과 관련한 수집 정보</strong></li>
+                                                <li>이용자의 고유식별번호</li>
+                                                <li>이용자의 신용카드 정보 또는 지불하고자 하는 금융기관 계좌 정보</li>
+                                                <li>이용자의 휴대폰 또는 유선 전화번호 및 가입 통신사</li>
+                                                <li>이용자의 상품권 번호 및 상품권 회원 아이디, 비밀번호 등</li>
+                                                <li>이용자의 결제하고자 하는 포인트 카드 정보</li>
+                                                <li>이용자의 접속 IP</li>
+                                                <li>이용자의 이메일</li>
+                                                <li>이용자의 상품 또는 용역 거래 정보</li>
+                                            </ul>
+                                            <ul>
+                                                <li><strong>나. 회원가입과 관련한 수집 정보</strong></li>
+                                                <li>이성명, 생년월일, 성별, 아이디, 비밀번호, 연락처(메일주소, 휴대폰 번호), 가입인증정보</li>
+                                                <li>만 14세 미만은 법정대리인 정보, 가입인증정보</li>
+                                                <li>외국인의 경우 외국인등록번호</li>
+                                            </ul>
+                                            <ul>
+                                                <li><strong>다. 서비스 이용 또는 처리 과정에서 자동 혹은 수동으로 생성되어 수집되는 정보</strong></li>
+                                                <li>이용자 IP 또는 Address, 쿠키, 서비스 접속 일시, 서비스 이용기록, 불량 혹은 비정상 이용기록, 결제기록</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <h5>3. 정보의 제공</h5>
+                                    <p>회사는 이용자의 개인정보를 본 개인정보 처리방침에서 고지한 범위 내에서 사용하며, 이용자의 사전 동의 없이 동 범위를 초과하여 이용하거나 이용자의 개인 정보를 제3자에게 제공하지 않습니다. 다만, 관련 법령에 의하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관 등에 개인정보를 제공하여야 하는 경우는 예외로 합니다. 회사의 서비스 이행을 위하여 개인정보를 제3자에게 제공하고 있는 경우는 다음과 같습니다.</p>
+                                    <div class="scroll-table">
+                                        <table class="event-table">
+                                            <tbody>
+                                            <tr>
+                                                <th>제공목적</th>
+                                                <th>제공받는자</th>
+                                                <th>제공정보</th>
+                                            </tr>
+                                            <tr>
+                                                <td>4개 시중은행</td>
+                                                <td>신한, SC제일, 씨티, 하나나</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>8개 특수은행</td>
+                                                <td>농협, 기업, 국민, 저축, 수협, 신협, 우체국, 새마을금고</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>7개 지방은행</td>
+                                                <td>대구, 부산, 경남, 광주, 전북, 조흥, 제주</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>1개 전업카드사</td>
+                                                <td>우리</td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>11개 VAN사</td>
+                                                <td>코밴, KIS정보통신, NICE정보통신, 브이피, 한국신용카드결제, 퍼스트데이터코리아, 케이에스넷, 스타VAN, 제이티넷, KICC, 스마트로</td>
+                                                <td>거래정보<br>(비씨카드: IP포함)</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p class="guide-text">보유 및 이용기간 : 건당 1만원 초과 시 5년, 건당 1만원 이하 시 1년</p>
+                                    <h5>4. 개인정보의 보유 및 이용 기간</h5>
+                                    <p>이용자의 개인정보는 원칙적으로 개인정보의 수집 및 이용목적이 달성되면 지체 없이 파기 합니다. 단, 전자금융거래법, 전자상거래 등에서의 소비자 보호에 관한 법률 등 관련 법령에 의하여 보존할 필요가 있는 경우 관련 법령에서 정한 일정한 기간 동안 개인정보를 보존합니다. 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.</p>
+                                    <ul class="agree-list">
+                                        <li>
+                                            <span class="txt-num">1)</span> 건당 1만원 초과 전자금융거래에 관한 기록
+                                            <ul>
+                                                <li>보존이유 : 전자금융거래법</li>
+                                                <li>보존기간 : 5년</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class="txt-num">2)</span> 건당 1만원 이하 전자금융거래에 관한 기록
+                                            <ul>
+                                                <li>보존이유 : 전자금융거래법</li>
+                                                <li>보존기간 : 1년</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <span class="txt-num">3)</span> 계약 또는 청약 철회 등에 관한 기록
+                                            <ul>
+                                                <li>보존이유 : 전자상거래 등에서의 소비자보호에 관한 법률</li>
+                                                <li>보존기간 : 5년</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--//agree_area.js-->
+                </div>
+                <!--//paymentSimpleCard-->
+
+                <!--paymentNaverPay-->
+                <div class="payment-table display-hide" id="paymentNaverPay">
+                    <ul class="guide-text">
+                        <li>주문 변경 시 카드사 혜택 및 할부 적용 여부는 해당 카드사 정책에 따라 변경될 수 있습니다.</li>
+                        <li>네이버페이는 네이버ID로 별도 앱 설치 없이 신용카드 또는 은행계좌 정보를 등록하여 네이버페이 비밀번호로 결제할 수 있는 간편결제 서비스입니다.</li>
+                        <li>네이버페이 카드 간편결제는 네이버페이에서 제공하는 카드사 별 무이자, 청구할인 혜택을 받을 수 있습니다.</li>
+                    </ul>
+                </div>
+                <!--//paymentNaverPay-->
+
+                <!--paymentKakaoPay-->
+                <div class="payment-table display-hide" id="paymentReceipts">
+                    <div class="table table-type2 info-table">
+                        <ul class="card-tab">
+                            <li>
+                                <span class="button-title">현금영수증 신청</span>
+                            </li>
+                            <li>
+                                <button type="button" class="active">
+                                    <i class="ico-tab-check"></i>
+                                    소득공제용(일반개인용)
+                                </button>
+                                <button type="button">
+                                    <i class="ico-tab-check"></i>
+                                    지출증빙용(사업자용)
+                                </button>
+                                <button type="button" class="not-receipts">
+                                    <i class="ico-tab-check"></i>
+                                    발급안함
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="table table-type2 receipts-table">
+                            <ul>
+                                <li>
+                                    <span>번호입력</span>
+                                </li>
+                                <li>
+                                    <input type="text" class="input-type1 input-md" placeholder="휴대폰 번호 또는 카드번호를 숫자만 입력하세요.">
+                                    <p class="guide-text display-hide">카카오페이 결제시 [pay머니]가 아닌 신용카드로 결제할 경우 현금영수증은 발행되지 않습니다.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="guide-text">
+                        <li>주문 변경 시 카드사 혜택 및 할부 적용 여부는 해당 카드사 정책에 따라 변경될 수 있습니다.</li>
+                    </ul>
+                </div>
+                <!--//paymentKakaoPay-->
+
+                <!--paymentPayco-->
+                <div class="payment-table display-hide" id="paymentPayco">
+                    <div class="table table-type2">
+                        <ul>
+                            <li>
+                                <span class="button-title">페이코 사용방법</span>
+                            </li>
+                            <li>
+                                <button type="button" class="btn-lightgray btn-payment btn-modal-open" name="orderPaycoGuide">보기</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="guide-text">
+                        <li>주문 변경 시 카드사 혜택 및 할부 적용 여부는 해당 카드사 정책에 따라 변경될 수 있습니다.</li>
+                    </ul>
+                </div>
+                <!--//paymentPayco-->
+
+                <!--paymentBank-->
+                <div class="payment-table display-hide" id="paymentBank">
+                    <div class="table table-type2 info-table">
+                        <ul>
+                            <li>
+                                <span>은행선택</span>
+                            </li>
+                            <li>
+                                <select>
+                                    <option>국민은행 1234567-78-789451</option>
+                                    <option>신한은행 1234567-78-789451</option>
+                                    <option>농협 1234567-78-789451</option>
+                                    <option>우리은행 1234567-78-789451</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>입금자명</span>
+                            </li>
+                            <li>
+                                <input type="text" class="input-type1 input-sm" placeholder="입금자명 입력">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>환불계좌</span>
+                            </li>
+                            <li>
+                                <input type="text" class="input-type1 input-block input-sm" placeholder="환불계좌 예금주 입력">
+                                <input type="text" class="input-type1 input-block input-sm" placeholder="환불계좌 은행명 입력">
+                                <input type="text" class="input-type1 input-block input-sm" placeholder="환불계좌 계좌번호 입력">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--//paymentBank-->
+
+                <!--paymentProxy-->
+                <div class="payment-table display-hide" id="paymentProxy">
+                    <div class="table table-type2 info-table">
+                        <ul class="proxy-button-area">
+                            <li>
+                                <span class="button-title">대리결제란?</span>
+                            </li>
+                            <li>
+                                <button type="button" class="btn-lightgray btn-payment btn-modal-open" name="orderProxy">보기</button>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>대리결제자 성함</span>
+                            </li>
+                            <li>
+                                <input type="text" class="input-type1 input-sm" placeholder="대리결제자 성함 입력">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>휴대폰번호</span>
+                            </li>
+                            <li class="inline-block-area">
+                                <div class="phone-num">
+                                    <select>
+                                        <option>010</option>
+                                        <option>011</option>
+                                        <option>017</option>
+                                        <option>02</option>
+                                        <option>031</option>
+                                    </select>
+                                    <span>-</span>
+                                    <input type="text" maxlength="4" class="input-type1">
+                                    <span>-</span>
+                                    <input type="text" maxlength="4" class="input-type1">
+                                </div>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span>요청 시 메시지</span>
+                            </li>
+                            <li>
+                                <input type="text" class="input-type1 input-sm" placeholder="요청 시 메시지 입력">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--//paymentProxy-->
+
+            </div>
+            <!--agree_area.js-->
+            <h4 class="sub-title-type2">
+                <label for="all-agree1" class="input-chk">
+                    <input type="checkbox" id="all-agree1" name="all-agree1" class="chk">
+                    <span>전체 동의</span>
+                </label>
+            </h4>
+            <div class="table table-type1">
+                <ul>
+                    <li class="agree-wrap clearfix">
+                        <label for="all-agree1-1" class="input-chk">
+                            <input type="checkbox" id="all-agree1-1" name="all-agree1-1" class="chk">
+                            <span>이용약관동의</span>
+                        </label>
+                        <button type="button" class="btn-agree">자세히 보기</button>
+                        <div class="agree">
+                            <h5>전자상거래(인터넷사이버몰) 표준약관</h5>
+                            <p>(2010. 12. 17. 개정)</p>
+                            <h5>제1조(목적)</h5>
+                            <p>이 약관은블로그페이 회사(전자상거래 사업자)가 운영하는블로그페이 사이버 몰(이하 “몰”이라 한다)에서 제공하는 인터넷 관련 서비스(이하 “서비스”라 한다)를 이용함에 있어 사이버 몰과 이용자의 권리․의무 및 책임사항을 규정함을 목적으로 합니다.</p>
+                            <em class="guide-text"> ※「PC통신, 무선 등을 이용하는 전자상거래에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다」</em>
+                            <h5>제2조(정의)</h5>
+                            <ul class="agree-list">
+                                <li><span class="txt-num">①</span>“몰”이란블로그페이 회사가 재화 또는 용역(이하 “재화등”이라 함)을 이용자에게 제공하기 위하여 컴퓨터등 정보통신설비를 이용하여 재화등을 거래할 수 있도록 설정한 가상의 영업장을 말하며, 아울러 사이버몰을 운영하는 사업자의 의미로도 사용합니다.</li>
+                                <li><span class="txt-num">②</span>“이용자”란 “몰”에 접속하여 이 약관에 따라 “몰”이 제공하는 서비스를 받는 회원 및 비회원을 말합니다.</li>
+                                <li><span class="txt-num">③</span>‘회원’이라 함은 “몰”에 개인정보를 제공하여 회원등록을 한 자로서, “몰”의 정보를 지속적으로 제공받으며, “몰”이 제공하는 서비스를 계속적으로 이용할 수 있는 자를 말합니다.</li>
+                                <li><span class="txt-num">④</span>‘비회원’이라 함은 회원에 가입하지 않고 “몰”이 제공하는 서비스를 이용하는 자를 말합니다.</li>
+                            </ul>
+                            <h5>제3조 (약관등의 명시와 설명 및 개정)</h5>
+                            <ul class="agree-list">
+                                <li><span class="txt-num">①</span>“몰”은 이 약관의 내용과 상호 및 대표자 성명, 영업소 소재지 주소(소비자의 불만을 처리할 수 있는 곳의 주소를 포함), 전화번호․모사전송번호․전자우편주소, 사업자등록번호, 통신판매업신고번호, 개인정보관리책임자등을 이용자가 쉽게 알 수 있도록블로그페이 사이버몰의 초기 서비스화면(전면)에 게시합니다. 다만, 약관의 내용은 이용자가 연결화면을 통하여 볼 수 있도록 할 수 있습니다.</li>
+                                <li><span class="txt-num">②</span>“몰은 이용자가 약관에 동의하기에 앞서 약관에 정하여져 있는 내용 중 청약철회․배송책임․환불조건 등과 같은 중요한 내용을 이용자가 이해할 수 있도록 별도의 연결화면 또는 팝업화면 등을 제공하여 이용자의 확인을 구하여야 합니다.</li>
+                                <li><span class="txt-num">③</span>“몰”은 전자상거래등에서의소비자보호에관한법률, 약관의규제에관한법률, 전자거래기본법, 전자서명법, 정보통신망이용촉진등에관한법률, 방문판매등에관한법률, 소비자보호법 등 관련법을 위배하지 않는 범위에서 이 약관을 개정할 수 있습니다.</li>
+                                <li><span class="txt-num">④</span>“몰”이 약관을 개정할 경우에는 적용일자 및 개정사유를 명시하여 현행약관과 함께 몰의 초기화면에 그 적용일자 7일이전부터 적용일자 전일까지 공지합니다. 다만, 이용자에게 불리하게 약관내용을 변경하는 경우에는 최소한 30일 이상의 사전 유예기간을 두고 공지합니다.  이 경우 "몰“은 개정전 내용과 개정후 내용을 명확하게 비교하여 이용자가 알기 쉽도록 표시합니다.</li>
+                                <li><span class="txt-num">⑤</span>“몰”이 약관을 개정할 경우에는 그 개정약관은 그 적용일자 이후에 체결되는 계약에만 적용되고 그 이전에 이미 체결된 계약에 대해서는 개정전의 약관조항이 그대로 적용됩니다. 다만 이미 계약을 체결한 이용자가 개정약관 조항의 적용을 받기를 원하는 뜻을 제3항에 의한 개정약관의 공지기간내에 ‘몰“에 송신하여 ”몰“의 동의를 받은 경우에는 개정약관 조항이 적용됩니다.</li>
+                                <li><span class="txt-num">⑥</span>이 약관에서 정하지 아니한 사항과 이 약관의 해석에 관하여는 전자상거래등에서의소비자보호에관한법률, 약관의규제등에관한법률, 공정거래위원회가 정하는 전자상거래등에서의소비자보호지침 및 관계법령 또는 상관례에 따릅니다.</li>
+                            </ul>
+                            <h5>제4조(서비스의 제공 및 변경)</h5>
+                            <ul class="agree-list">
+                                <li>
+                                    <span class="txt-num">①</span>“몰”은 다음과 같은 업무를 수행합니다.
+                                    <ul>
+                                        <li>1. 재화 또는 용역에 대한 정보 제공 및 구매계약의 체결</li>
+                                        <li>2. 구매계약이 체결된 재화 또는 용역의 배송</li>
+                                        <li>3. 기타 “몰”이 정하는 업무</li>
+                                    </ul>
+                                </li>
+                                <li><span class="txt-num">②</span>“몰”은 재화 또는 용역의 품절 또는 기술적 사양의 변경 등의 경우에는 장차 체결되는 계약에 의해 제공할 재화 또는 용역의 내용을 변경할 수 있습니다. 이 경우에는 변경된 재화 또는 용역의 내용 및 제공일자를 명시하여 현재의 재화 또는 용역의 내용을 게시한 곳에 즉시 공지합니다.</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="agree-wrap clearfix">
+                        <label for="all-agree1-2" class="input-chk">
+                            <input type="checkbox" id="all-agree1-2" name="all-agree1-2" class="chk">
+                            <span>개인정보수집 및 이용 동의</span>
+                        </label>
+                        <button type="button" class="btn-agree">자세히 보기</button>
+                        <div class="agree">
+                            <p>쇼핑몰은 다음과 같은 개인정보보호 방침을 명시하고 있습니다.<br>
+                                읽으시고 쇼핑몰이 귀하의 개인정보를 어떻게 취급하는지를 이해하시기 바랍니다.<br>
+                                본 보호정책은 정보통신부에서 지정한 개인정보 보호지침 제7조에 의거하여 작성되었으며, 수시로 내용이 변경될 수 있으므로 정기적으로 방문하셔서 확인해 보시기 바랍니다.
+                            </p>
+                            <p>쇼핑몰은 정통부 시행 개인정보보호지침(제22조 1항)에 의거 관리책임자를 아래와 같이 지정합니다.</p>
+                            <ul>
+                                <li>직 위 : 개인정보 보호책임자(CPO:Chief Privacy Officer)</li>
+                                <li>이 름 : 김석종</li>
+                                <li>전 화 : 070-7443-2128</li>
+                                <li>E-mail : emop99@naver.com</li>
+                            </ul>
+                            <p>개인정보 관리 책임자는 쇼핑몰 회원 여러분의 개인정보를 보호하고, 유출을 방지하는 책임자로서 회원들이 안심하고 쇼핑몰을 이용할 수 있도록 도와 드립니다.<br>
+                                개인정보보호에 대해 의견을 제시하거나 관련 문의사항이 있으면, 위의 연락처로 연락하시면 됩니다.
+                            </p>
+                            <h5>개인정보의 수집목적 및 이용</h5>
+                            <p>쇼핑몰이 개인정보를 수집하는 목적은 쇼핑몰 사이트를 통하여 회원님께 최대한으로 최적화되고 맞춤화된 서비스를 제공해 주기 위해서입니다.<br>
+                                쇼핑몰은 회원님께서 쇼핑몰에서 재화 및 서비스 상품을 주문하고 결제하고 이 상품을 배송하고, 또한 기타 회원님을 위한 각종 서비스를 제공하기 위해서 필요한 최소한의 정보를 수집하고 있습니다.<br>
+                                개인 정보의 기본 수집 목적 이외에 다른 용도로 이용하거나 회원의 동의 없이 제3자에게 회원 정보를 제공할 수 없으며, 회원 정보의 분식, 도난, 유출, 변조가 발생하고 이에 따라 회원이 피해를 입을 경우 이에 대한 모든 책임은 '쇼핑몰'이 집니다.</p>
+                            <h5>개인정보 수집 항목 및 방법</h5>
+                            <p>쇼핑몰은 이용자의 정보 수집시 구매계약 이행에 필요한 최소한의 정보를 수집하되, 다음의 사항을 필수로 하고, 그 외 사항은 선택사항으로 합니다.</p>
+                            <ul class="agree-list">
+                                <li><span class="txt-num">1.</span>성명</li>
+                                <li><span class="txt-num">2.</span>주민등록번호(회원의 경우)</li>
+                                <li><span class="txt-num">3.</span>주소</li>
+                                <li><span class="txt-num">4.</span>전화번호</li>
+                                <li><span class="txt-num">5.</span>희망 ID (회원의 경우)</li>
+                                <li><span class="txt-num">6.</span>비밀번호 (회원의 경우)</li>
+                            </ul>
+                            <p>이 이외에 회원 가입시 고객께서 원하시는 경우에 한하여 추가 정보를 선택하여 제공하실 수 있도록 되어 있으며 일부 물품 및 서비스 상품에 대한 주문 및 접수시에 고객이 원하는 정확한 주문 내용을 파악하여 원활한 주문 및 결재와 배송을 위하여 추가적인 정보를 요구하고 있습니다.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="agree-wrap sub-title-type2">
+                <label for="agree1" class="input-chk">
+                    <input type="checkbox" id="agree1" name="agree1" class="chk">
+                    <span>구입 전 필독사항</span>
+                </label>
+                <button type="button" class="btn-agree">자세히 보기</button>
+                <div class="agree">
+                    <ul>
+                        <li>구입 전 필독사항</li>
+                        <li>구입 전 필독사항</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="agree-wrap sub-title-type2">
+                <label for="agree2" class="input-chk">
+                    <input type="checkbox" id="agree2" name="agree2" class="chk">
+                    <span>비회원 주문 개인정보 수집동의</span>
+                </label>
+                <button type="button" class="btn-agree">자세히 보기</button>
+                <div class="agree">
+                    <p>블로그페이를 이용하는 각 판매업체와 쇼핑몰 호스팅 및 결제서비스 제공사인 ㈜유디아이디(이하 “양사”)는 고객님의 개인정보를 중요시하며, "정보통신망 이용촉진 및 정보보호"에 관한 법률을 준수하고 있습니다.</p>
+                    <h5>01. 개인정보 수집의 목적</h5>
+                    <ul class="agree-list">
+                        <li>
+                            <span class="txt-num">①</span>회사는 비회원 구매시 다음과 같은 목적을 위하여 개인정보를 수집하고 있습니다. 비회원 구매 시의 개인 정보는 배송, 대금결제, 주문내역 조회 및 구매확인, 실명여부 확인을 위하여 필요한 개인정보만을 요청하고 있으며, 이 경우 그 정보는 대금결제 및 상품의 배송에 관련된 용도 이외에는 다른 어떠한 용도로도 사용되지 않습니다.
+                            <ul>
+                                <li>- 이름 : 본인 및 이용자 확인 목적</li>
+                                <li>- 주소, 전화번호, 휴대폰 번호 : 배송물품 수취 불가 등의 경우 정확한 배송지의 확보</li>
+                                <li>- E-Mail주소 : 계약이행의 연락 및 안내 등의 고지를 위한 내용</li>
+                                <li>- 받으시는 분의 이름, 전화번호, 휴대폰 번호, 주소: 물품배송에 대한 정확한 배송지의 확보</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h5>02. 수집하는 개인정보의 항목</h5>
+                    <ul class="agree-list">
+                        <li>
+                            <span class="txt-num">①</span> 회사는 비회원 구매 시 다음과 같은 개인정보를 수집하고 있습니다.
+                            <ul>
+                                <li><strong>가. 전자금융거래서비스 이행과 관련한 수집 정보</strong></li>
+                                <li>이용자의 고유식별번호</li>
+                                <li>이용자의 신용카드 정보 또는 지불하고자 하는 금융기관 계좌 정보</li>
+                                <li>이용자의 휴대폰 또는 유선 전화번호 및 가입 통신사</li>
+                                <li>이용자의 상품권 번호 및 상품권 회원 아이디, 비밀번호 등</li>
+                                <li>이용자의 결제하고자 하는 포인트 카드 정보</li>
+                                <li>이용자의 접속 IP</li>
+                                <li>이용자의 이메일</li>
+                                <li>이용자의 상품 또는 용역 거래 정보</li>
+                            </ul>
+                            <ul>
+                                <li><strong>나. 회원가입과 관련한 수집 정보</strong></li>
+                                <li>이성명, 생년월일, 성별, 아이디, 비밀번호, 연락처(메일주소, 휴대폰 번호), 가입인증정보</li>
+                                <li>만 14세 미만은 법정대리인 정보, 가입인증정보</li>
+                                <li>외국인의 경우 외국인등록번호</li>
+                            </ul>
+                            <ul>
+                                <li><strong>다. 서비스 이용 또는 처리 과정에서 자동 혹은 수동으로 생성되어 수집되는 정보</strong></li>
+                                <li>이용자 IP 또는 Address, 쿠키, 서비스 접속 일시, 서비스 이용기록, 불량 혹은 비정상 이용기록, 결제기록</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="agree-wrap sub-title-type2">
+                <label for="agree3" class="input-chk">
+                    <input type="checkbox" id="agree3" name="agree3" class="chk">
+                    <span>본 상품은 <u class="text-red">한정수량 판매상품</u> 으로 결제 후 재고 부족으로 인해 결제가 자동으로 취소될 수 있습니다.</span>
+                </label>
+            </div>
+            <!--agree_area.js-->
+
+            <h4 class="sub-title-type2">배송/반품/환불 정보<button type="button" class="btn-black btn-title-view btn-modal-open" name="memberView">정보보기</button></h4>
+
+            <h4 class="sub-title">결제정보</h4>
+            <div class="order-price">
+                <div class="detail-price">
+                    <dl class="amount-title">
+                        <dt>총 주문금액</dt>
+                        <dd><em>440,200</em>원</dd>
+                    </dl>
+                    <div class="amount-info">
+                        <dl>
+                            <dt>상품금액</dt>
+                            <dd>437,700원</dd>
+                            <dt>배송비</dt>
+                            <dd>+ 2,500원</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="detail-price">
+                    <span class="price-icon minus"></span>
+                    <dl class="amount-title">
+                        <dt>총 할인금액</dt>
+                        <dd><em>28,000</em>원</dd>
+                    </dl>
+                    <div class="amount-info">
+                        <dl>
+                            <dt>회원 특별할인 <strong class="text-red">(10%)</strong></dt>
+                            <dd>- 7,000원</dd>
+                            <dt>상품 할인 이벤트</dt>
+                            <dd>- 7,000원</dd>
+                            <dt>다량 구매 할인</dt>
+                            <dd>- 7,000원</dd>
+                            <dt>쿠폰</dt>
+                            <dd>- 7,000원</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="detail-price">
+                    <span class="price-icon equal"></span>
+                    <dl class="amount-title text-red">
+                        <dt>총 결제금액</dt>
+                        <dd><em>412,200</em>원</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="btn-area display-w">
+                <button type="button" class="btn-black">결제하기</button>
+            </div>
+
+            <div class="btn-area display-m">
+                <button type="button" class="btn-black"><strong>581,100</strong>원 결제하기</button>
+            </div>
+
+            <!--modal.js-->
+            <div class="modal" id="deliveryPrice">
+                <div class="modal-content modal-sm">
+                    <div class="modal-heading">
+                        <h3>조건별 배송비</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body delivery-modal">
+                        <div class="table table-type4">
+                            <ul>
+                                <li>0개 이상 ~ 3개 미만</li>
+                                <li>5,000원</li>
+                            </ul>
+                            <ul>
+                                <li>3개 이상</li>
+                                <li>4,000원</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="moreGiftInfo">
+                <div class="modal-content modal-sm">
+                    <div class="modal-heading">
+                        <h3>사은품 안내</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body giftinfo">
+                        <h5>구매금액과 상관없이 드리는 사은품 입니다.
+                            <p class="guide-text">사은품 증정기간 <br><span>2019-06-26 09:00 ~ 2020-04-16 11:00 (295일간)</span></p>
+                        </h5>
+                        <table class="gift-table mt5">
+                            <colgroup>
+                                <col style="width:70px;">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <td><img src="../images/sub_page/product_thumb04.jpg" alt="product img"></td>
+                                <td><span class="ellipsis">HOUND TOOTH CHECK JACKET_BROWN CHECK JACKET_BROWN 상품이름이 길경우에는 두줄에서 잘립니다. 상품이름이 길경우에는 두줄에서 잘립니다.</span></td>
+                            </tr>
+                            <tr>
+                                <td><img src="../images/sub_page/product_thumb04.jpg" alt="product img"></td>
+                                <td><span class="ellipsis">HOUND TOOTH CHECK JACKET_BROWN CHECK JACKET_BROWN</span></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="productSaleEvent">
+                <div class="modal-content modal-lg">
+                    <div class="modal-heading">
+                        <h3><span>'상품테스트'</span>의 상품 할인 이벤트</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <table class="event-table mt5">
+                            <caption>상품 할인 이벤트 안내</caption>
+                            <tbody>
+                            <tr>
+                                <th>혜택</th>
+                                <th>할인율</th>
+                                <th>기간</th>
+                            </tr>
+                            <tr>
+                                <td>전체 할인</td>
+                                <td>10%</td>
+                                <td>2019-07-31 07:00:00 ~ 2020-06-25 23:00:00</td>
+                            </tr>
+                            <tr>
+                                <td>전체 할인</td>
+                                <td>10%</td>
+                                <td>2019-07-31 07:00:00 ~ 2020-06-25 23:00:00</td>
+                            </tr>
+                            <tr>
+                                <td>전체 할인</td>
+                                <td>10%</td>
+                                <td>2019-07-31 07:00:00 ~ 2020-06-25 23:00:00</td>
+                            </tr>
+                            <tr>
+                                <td>전체 할인</td>
+                                <td>10%</td>
+                                <td>2019-07-31 07:00:00 ~ 2020-06-25 23:00:00</td>
+                            </tr>
+                            <tr>
+                                <td>전체 할인</td>
+                                <td>10%</td>
+                                <td>2019-07-31 07:00:00 ~ 2020-06-25 23:00:00</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="orderCoupon">
+                <div class="modal-content modal-md">
+                    <div class="modal-heading">
+                        <h3>할인쿠폰 선택</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <!--쿠폰선택 셀렉트 형태-->
+                        <p class="modal-guide-title">쿠폰선택</p>
+                        <select class="select-block">
+                            <option>1000원 / 판매자발급쿠폰(최소 결제금액 0원) / ~2.20일까지</option>
+                        </select>
+                        <!--//쿠폰선택 셀렉트 형태-->
+
+                        <!--쿠폰선택 리스트 형태-->
+                        <ul class="modal-list-table">
+                            <li>
+                                <strong class="modal-list-name">무료배송 쿠폰</strong>
+                                <p class="modal-list-info">적용범위 (최소 결제 금액:1,000원)</p>
+                                <!--추가되는 항목 있다면 modal-list-info클래스로 추가해주세요-->
+                                <p class="modal-list-text">사용기간 20.02.17 - 20.05.17</p>
+                                <button class="btn-black btn-selection">쿠폰선택</button>
+                            </li>
+                            <li>
+                                <strong class="modal-list-name">10% 할인</strong>
+                                <p class="modal-list-info">적용범위 (최소 결제 금액:3,000원)</p>
+                                <!--추가되는 항목 있다면 modal-list-info클래스로 추가해주세요-->
+                                <p class="modal-list-text">사용기간 20.02.17 - 20.05.17</p>
+                                <button class="btn-black btn-selection">쿠폰선택</button>
+                            </li>
+                        </ul>
+                        <!--//쿠폰선택 리스트 형태-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">확인</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="orderCardEvent">
+                <div class="modal-content modal-lg">
+                    <div class="modal-heading">
+                        <h3>카드 무이자 행사안내</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-guide-title">아래와 같이 카드사별 <strong class="text-red">11월 무이자</strong> 진행사항 안내 드립니다.</p>
+                        <p class="guide-text">사업장(법인,개인), 체크 , 선불, 기프트카드는 제외됩니다.</p>
+                        <p class="guide-text">무이자 이용시 포인트/마일리지적립/할인서비스 등 다른헤택과 중복 적용되지 않습니다,</p>
+                        <p class="guide-text">직계약가맹점 및 상점부담무이자 가맹점,특별제휴가맹점 등 일부 가맹점은 제외될 수 있습니다.</p>
+
+                        <table class="event-table">
+                            <caption>카드사 무이자 행사</caption>
+                            <tr>
+                                <th>기간</th>
+                                <th>카드사</th>
+                                <th>할부적용금액</th>
+                                <th>할부개월</th>
+                                <th>이용방법</th>
+                                <th>비고</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="7">01.01~01.31</td>
+                                <td>신한카드</td>
+                                <td rowspan="7">5만원이상</td>
+                                <td>2~5개월</td>
+                                <td rowspan="7">별도 신청없이 적용</td>
+                                <td rowspan="7"> </td>
+                            </tr>
+                            <tr>
+                                <td>국민카드</td>
+                                <td rowspan="6">2~6개월</td>
+                            </tr>
+                            <tr>
+                                <td>NH농협카드</td>
+                            </tr>
+                            <tr>
+                                <td>비씨카드</td>
+                            </tr>
+                            <tr>
+                                <td>삼성카드</td>
+                            </tr>
+                            <tr>
+                                <td>하나카드</td>
+                            </tr>
+                            <tr>
+                                <td>현대카드</td>
+                            </tr>
+                        </table>
+                        <table class="event-table">
+                            <caption>카드사 부분 무이자 행사안내</caption>
+                            <tr>
+                                <th>기간</th>
+                                <th>카드사</th>
+                                <th>할부개월</th>
+                                <th>고객부담</th>
+                                <th>면제</th>
+                                <th>비고</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="17">01.01~01.31</td>
+                                <td>국민카드</td>
+                                <td>10개월</td>
+                                <td>1~3회차</td>
+                                <td>4~10회차</td>
+                                <td rowspan="5"></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">신한카드</td>
+                                <td>10개월</td>
+                                <td>1~3회차</td>
+                                <td>3~10회차</td>
+                            </tr>
+                            <tr>
+                                <td>12개월</td>
+                                <td>1~3회차</td>
+                                <td>4~12회차</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">삼성카드</td>
+                                <td>10개월</td>
+                                <td>1~4회차</td>
+                                <td>5~10회차</td>
+                            </tr>
+                            <tr>
+                                <td>12개월</td>
+                                <td>1~5회차</td>
+                                <td>6~12회차</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6">비씨카드</td>
+                                <td>7개월</td>
+                                <td rowspan="4">1~2회차</td>
+                                <td>3~7회차</td>
+                                <td rowspan="6">ARS신청<br>(1899-5772)</td>
+                            </tr>
+                            <tr>
+                                <td>8개월</td>
+                                <td>3~8회차</td>
+                            </tr>
+                            <tr>
+                                <td>9개월</td>
+                                <td>3~9회차</td>
+                            </tr>
+                            <tr>
+                                <td>10개월</td>
+                                <td>3~10회차</td>
+                            </tr>
+                            <tr>
+                                <td>11개월</td>
+                                <td rowspan="2">1~3회차</td>
+                                <td>4~11회차</td>
+                            </tr>
+                            <tr>
+                                <td>12개월</td>
+                                <td>4~12회차</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6">NH농협카드</td>
+                                <td>7개월</td>
+                                <td rowspan="4">1~2회차</td>
+                                <td>3~7회차</td>
+                                <td rowspan="6">ARS신청<br>(1899-5772)</td>
+                            </tr>
+                            <tr>
+                                <td>8개월</td>
+                                <td>3~8회차</td>
+                            </tr>
+                            <tr>
+                                <td>9개월</td>
+                                <td>3~9회차</td>
+                            </tr>
+                            <tr>
+                                <td>10개월</td>
+                                <td>3~10회차</td>
+                            </tr>
+                            <tr>
+                                <td>11개월</td>
+                                <td rowspan="2">1~3회차</td>
+                                <td>4~11회차</td>
+                            </tr>
+                            <tr>
+                                <td>12개월</td>
+                                <td>4~12회차</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="orderPaycoGuide">
+                <div class="modal-content modal-lg">
+                    <div class="modal-heading">
+                        <h3>PAYCO 사용방법</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body payco-guide">
+                        <ul>
+                            <li>
+                                <strong>1</strong>
+                                <p>PAYCO 선택 후 결제하기를 클릭합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide01.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>2</strong>
+                                <p>전체 동의 선택 후 다음을 클릭합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide02.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>3</strong>
+                                <p>기존 회원일 경우 로그인을 비회원일 경우 회원가입을 클릭해주세요</p>
+                                <p class="guide-text">이미 PAYCO에 가입된 경우 4~7의 절차가 생략됩니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide03.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>4</strong>
+                                <p>PAYCO 회원 가입을 위한 필수정보를 입력합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide04.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>5</strong>
+                                <p>인증번호를 입력하고 확인을 클릭합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide05.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>6</strong>
+                                <p>결제에 사용하실 신용카드를 등록합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide06.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>7</strong>
+                                <p>카드 등록 후 결제 암호를 생성합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide07.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>8</strong>
+                                <p>동의 체크 후 결제를 클릭합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide08.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <strong>9</strong>
+                                <p>결제 암호를 입력합니다.</p>
+                                <img src="../images/sub_page/order_form/img_payco_guide09.jpg" alt="payco guide images">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="orderProxy">
+                <div class="modal-content modal-sm">
+                    <div class="modal-heading">
+                        <h3>대리결제</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <p class="proxy-guide">주문자가 바로 결제하기 어려울떄!<br>
+                            내가원하는 상품을 사달라고 요청할떄!<br>
+                            주문페이지의 대리결제를 선택!
+                        </p>
+                        <p>원하는 사람에게 주문서 링크를 전송하여 결제를 진행하는 <strong>신개념 결제서비스</strong> 입니다.</p>
+                        <ul class="proxy-guide-area">
+                            <li>
+                                <i class="proxy-guide01"></i>
+                                <span class="guide-num">1</span>
+                                <p>상품주문<br>배송정보 입력</p>
+                            </li>
+                            <li>
+                                <i class="proxy-guide02"></i>
+                                <span class="guide-num">2</span>
+                                <p>대리결제 선택 후<br>정보입력</p>
+                            </li>
+                            <li>
+                                <i class="proxy-guide03"></i>
+                                <span class="guide-num">3</span>
+                                <p>대리결제자에게<br>주문서링크 SMS전송</p>
+                            </li>
+                            <li>
+                                <i class="proxy-guide04"></i>
+                                <span class="guide-num">4</span>
+                                <p>대리결제자 결제 및<br>주문서 확인상품 배송 시작</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="productInfo">
+                <div class="modal-content modal-lg">
+                    <div class="modal-heading">
+                        <h3>상품 설명</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <p>잇님들! 안녕하세요<br>유튜브 인스타로 말씀드렸던</p>
+                        <strong>Basic Ankleshoes 3color</strong>
+                        <img src="../images/sub_page/product_thumb05.jpg" alt="product images">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="snsShare">
+                <div class="modal-content modal-xsm">
+                    <div class="modal-heading">
+                        <h3>SNS 공유</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="sns-share-list">
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-kakao">카카오톡으로 공유</i>
+                                    <span>카카오톡</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-facebook">페이스북으로 공유</i>
+                                     <span>페이스북</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-instagram">인스타그램으로 공유</i>
+                                     <span>인스타그램</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-kakaostory">카카오스토리로 공유</i>
+                                     <span>카카오스토리</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-blog">네이버블로그로 공유</i>
+                                     <span>네이버블로그</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-twitter">트위터로 공유</i>
+                                     <span>트위터</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-band">네이버밴드로 공유</i>
+                                     <span>네이버밴드</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="ico-share-youtube">유튜브로 공유</i>
+                                     <span>유튜브</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="memberView">
+                <div class="modal-content modal-lg">
+                    <div class="modal-heading">
+                        <h3>배송/반품/환불 안내</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <div class="delivery-info">
+                            <ul>
+                                <li>· 배송/반품/환불 정보를 입력할 수 있는 영역입니다 내용을 입력해주세요.</li>
+                                <li>· 배송/반품/환불 정보 자세한 내용을 입력해주세요 배송/반품/환불 정보 자세한 내용을 입력해주세요.</li>
+                                <li>· 배송/반품/환불 정보를 입력할 수 있는 영역</li>
+                                <li>· 배송/반품/환불 정보를 입력할 수 있는 영역입니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal" id="addressView">
+                <div class="modal-content modal-md">
+                    <div class="modal-heading">
+                        <h3>최근배송지</h3>
+                        <span class="modal-close"></span>
+                    </div>
+                    <div class="modal-body">
+                        <!--쿠폰선택 리스트 형태-->
+                        <ul class="modal-list-table">
+                            <li>
+                                <strong class="modal-list-name">회사<em class="text-red">(기본배송지)</em></strong>
+                                <p class="modal-list-info">우편번호 [12345]</p>
+                                <!--추가되는 항목 있다면 modal-list-info클래스로 추가해주세요-->
+                                <p class="modal-list-text">서울특별시 구로구 디지털로 26길 61(구로동) 에이스하이엔드타워 2차 1203호</p>
+                                <button class="btn-black btn-selection">선택</button>
+                            </li>
+                            <li>
+                                <strong class="modal-list-name">집</strong>
+                                <p class="modal-list-info">우편번호 [12345]</p>
+                                <!--추가되는 항목 있다면 modal-list-info클래스로 추가해주세요-->
+                                <p class="modal-list-text">서울특별시 구로구 디지털로 26길 61(구로동) 에이스하이엔드타워 2차 1203호</p>
+                                <button class="btn-black btn-selection">선택</button>
+                            </li>
+                        </ul>
+                        <!--//쿠폰선택 리스트 형태-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-black btn-block modal-close">확인</button>
+                    </div>
+                </div>
+            </div>
+            <!--//modal.js-->
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <div class="inner">
+            <div class="footer-tit clearfix">
+                <p>상품 주문, 배송 및 환불의 의무와 책임은 판매업체에 있음을 알려드립니다. 아래의 판매업체 정보를 확인해주세요.</p>
+                <ul>
+                    <li>
+                        <a href="../board/board_privacy.html">개인정보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="#">이용약관</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="shop-info">
+                <ul class="info-list">
+                    <li>
+                        <em>상호</em>
+                        <span>블로그페이 (대표 홍길동)</span>
+                    </li>
+                    <li>
+                        <em>통신판매업 번호</em>
+                        <span>제 2012-서울구로-0239호</span>
+                    </li>
+                    <li>
+                        <em>고객센터</em>
+                        <span>070-0000-0000</span>
+                    </li>
+                </ul>
+                <ul class="info-list">
+                    <li>
+                        <em>주소</em>
+                        <span>서울 구로구 디지털로26길 61 에이스하이엔드타워2차 12층 1203호 (주)유디아이디</span>
+                    </li>
+                    <li>
+                        <em>이메일</em>
+                        <span>payapp@udid.co.kr</span>
+                    </li>
+                </ul>
+                <ul class="info-list">
+                    <li>
+                        <em>사업자등록번호</em>
+                        <span>113-86-56537<a href="#">[사업자번호확인]</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="final-info clearfix">
+                <img src="../images/common/escro.png" alt="payapp escro">
+                <span>Hosting by <strong>blogpay.</strong></span>
+            </div>
+        </div>
+    </div>
+    <!--//footer-->
+</div>
+<!-- // wrap -->
+
+</body>
+</html>
+
