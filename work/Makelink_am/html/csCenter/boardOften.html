@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>makelink AM</title>
+    <link rel="shortcut icon" href="../../img/makelink.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='../../css/reset.css' rel='stylesheet' type='text/css'>
+    <link href='../../css/layout.css' rel='stylesheet' type='text/css'>
+
+    <script src="../../js/jquery-3.5.0.min.js"></script>
+    <script src="../../js/jquery-ui.min.js"></script>
+    <script src="../../js/layout.js"></script>
+</head>
+<body>
+<div class="wrap">
+    <div class="side">
+        <h1 class="logo">
+            <a href="#"><img src="../../img/makelinkam_logo.png" alt="make link AM"></a>
+        </h1>
+        <ul class="side-menu">
+            <li><a href="../dashBoard.html"><span><i class="ico ico-board"></i>대시 보드</span></a></li>
+            <li>
+                <span><i class="ico ico-member"></i>회원 관리<i class="ico-side-arrow"></i></span>
+                <ul class="2depth">
+                    <li><a href="#">회원 목록</a></li>
+                    <li><a href="#">회원별 이용지표</a></li>
+                    <li><a href="../userManagement/subscriber.html">가입자 수</a></li>
+                    <li><a href="../userManagement/user.html">이용자 수</a></li>
+                    <li><a href="../userManagement/visit.html">방문고객 수</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><span><i class="ico ico-m-status"></i>회원 현황</span></a></li>
+            <li>
+                <span><i class="ico ico-link"></i>링크 현황<i class="ico-side-arrow"></i></span>
+                <ul class="2depth">
+                    <li><a href=../linkManagement/productLInk.html>상품링크 현황</a></li>
+                    <li><a href=../linkManagement/urlLInk.html>주소링크 현황</a></li>
+                    <li><a href=../linkManagement/bannerLInk.html>홍보배너 현황</a></li>
+                </ul>
+            </li>
+            <li>
+                <span><i class="ico ico-message"></i>알림톡 발송 현황<i class="ico-side-arrow"></i></span>
+                <ul class="2depth">
+                    <li><a href="../alarmTalk/productAlarm.html">상품링크 알림톡 발송 현황</a></li>
+                    <li><a href="../alarmTalk/urlAlarm.html">주소링크 알림톡 발송 현황</a></li>
+                </ul>
+            </li>
+            <li><a href="../subscribe.html"><span><i class="ico ico-bell"></i>소식받기 현황</span></a></li>
+            <li class="open">
+                <span><i class="ico ico-notice"></i>고객센터<i class="ico-side-arrow"></i></span>
+                <ul class="2depth">
+                    <li><a href="../csCenter/notice.html">공지사항</a></li>
+                    <li class="active"><a href="../csCenter/boardOften.html">자주하는 질문</a></li>
+                </ul>
+            </li>
+        </ul>
+        <a href="#" class="logout"><i class="ico ico-logout"></i>로그아웃</a>
+    </div>
+    <div class="title-area">
+        <span>고객센터</span>
+        <span>자주하는 질문</span>
+    </div>
+    <div class="content">
+        <div class="inner">
+            <div class="content-box">
+                <div class="board-area">
+                    <table class="table">
+                        <colgroup>
+                            <col style="width:15%">
+                            <col style="width:85%">
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <th>문의기간</th>
+                            <td>
+                                <ul class="date-list">
+                                    <li><button type="button" class="btn-date">오늘</button></li>
+                                    <li><button type="button" class="btn-date">3일</button></li>
+                                    <li class="active"><button type="button" class="btn-date">1주일</button></li>
+                                    <li><button type="button" class="btn-date">1개월</button></li>
+                                    <li><button type="button" class="btn-date">3개월</button></li>
+                                </ul>
+                                <div class="calendar-area">
+                                    <div class="text-box text-sm">
+                                        <input type="text" id="datepicker3" readonly="" placeholder="시작일">
+                                        <i class="ico ico-calendar"></i>
+                                    </div>
+                                    <span class="tilde">~</span>
+                                    <div class="text-box text-sm">
+                                        <input type="text" id="datepicker4" readonly="" placeholder="종료일">
+                                        <i class="ico ico-calendar"></i>
+                                    </div>
+                                </div>
+                                <script>
+                                    $( "#datepicker3" ).datepicker({
+                                        showMonthAfterYear: true,
+                                        dateFormat: "yy-mm-dd"
+                                    });
+                                    $( "#datepicker4" ).datepicker({
+                                        showMonthAfterYear: true,
+                                        dateFormat: "yy-mm-dd"
+                                    });
+                                </script>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>문의유형</th>
+                            <td>
+                                <select>
+                                    <option value="">전체</option>
+                                    <option value="">회원정보</option>
+                                    <option value="">서비스이용</option>
+                                    <option value="">소식받기</option>
+                                    <option value="">알림톡</option>
+                                    <option value="">기타</option>
+                                </select>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="button-area">
+                    <button type="submit" class="btn btn-md btn-orange">검색</button>
+                </div>
+            </div>
+            <div class="content-box">
+                <div class="content-title">
+                    <h3>자주하는 질문 리스트</h3>
+                    <div class="content-function">
+                        <button type="button" class="btn btn-orange-line btn-sm modal-open" data-name="modalBoard">게시글 등록</button>
+                        <select class="short">
+                            <option value="">20개</option>
+                            <option value="">30개</option>
+                            <option value="">50개</option>
+                            <option value="">100개</option>
+                            <option value="">200개</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="content-body">
+                    <table class="table table-type1">
+                        <colgroup>
+                            <col style="width:7%">
+                            <col style="width:9%">
+                            <col style="width:9%">
+                            <col style="width:59%">
+                            <col style="width:9%">
+                            <col style="width:9%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>접수일</th>
+                            <th>문의유형</th>
+                            <th class="text-left">문의제목</th>
+                            <th>조회수</th>
+                            <th>관리</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2021-02-04<br>16:00:00</td>
+                            <td>회원정보</td>
+                            <td class="text-left"><p class="modal-open" data-name="modalBoard">링크가 정상적으로 등록되지 않아요.</p></td>
+                            <td>1</td>
+                            <td>
+                                <button type="button" class="btn btn-red-line btn-sm">삭제</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>2021-02-04<br>16:00:00</td>
+                            <td>서비스 이용</td>
+                            <td class="text-left"><p class="modal-open" data-name="modalBoard">링크가 정상적으로 등록되지 않아요.</p></td>
+                            <td>99999</td>
+                            <td>
+                                <button type="button" class="btn btn-red-line btn-sm">삭제</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>2021-02-04<br>16:00:00</td>
+                            <td>기본문의</td>
+                            <td class="text-left"><p class="modal-open" data-name="modalBoard">링크가 정상적으로 등록되지 않아요.</p></td>
+                            <td>99999</td>
+                            <td>
+                                <button type="button" class="btn btn-red-line btn-sm">삭제</button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="button-area pagination">
+                        <a href="#" class="page-arrow"><i class="ico ico-prev">이전</i></a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#" class="active">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#" class="page-arrow"><i class="ico ico-next">다음</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modalBoard">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h3>게시글 등록</h3>
+                <button type="button" class="modal-close ico ico-close-white">닫기</button>
+            </div>
+            <div class="modal-body">
+                <table class="table table-type1 table-left">
+                    <colgroup>
+                        <col style="width:">
+                        <col style="width:">
+                    </colgroup>
+                    <tbody>
+                    <tr>
+                        <th>문의유형</th>
+                        <td>
+                            <select>
+                                <option value="">전체</option>
+                                <option value="">회원정보</option>
+                                <option value="">서비스이용</option>
+                                <option value="">소식받기</option>
+                                <option value="">알림톡</option>
+                                <option value="">기타</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>제목</th>
+                        <td>
+                            <div class="text-box text-block">
+                                <input type="text">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>내용</th>
+                        <td>
+                            에디터
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="button-area">
+                    <button type="button" class="btn btn-orange-line btn-md modal-close">닫기</button>
+                    <button type="submit" class="btn btn-orange btn-md">저장</button>
+                </div>
+            </div>
+        </div>
+        <div class="overlay modal-close"></div>
+    </div>
+</div>
+</body>
+</html>
