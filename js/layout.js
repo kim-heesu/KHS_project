@@ -11,8 +11,18 @@ $(document).ready(function(){
         arrows: true,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 6000
+        autoplaySpeed: 6000,
+        responsive: [
+            {  
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                } 
+            },
+        ]
     });
+
     $(".landing-slide").slick({
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -20,7 +30,16 @@ $(document).ready(function(){
         arrows: true,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 6000
+        autoplaySpeed: 6000,
+        responsive: [
+            {  
+                breakpoint: 1500,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                } 
+            },
+        ]
     });
     $(".banner-slide").slick({
         slidesToShow: 1,
