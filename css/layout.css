@@ -229,7 +229,7 @@ html {
 .design-banner h2 span {
     display: block;
     margin-bottom: 1rem;
-    font-size: 1.5rem;
+    font-size: 0.4em;
     font-weight: 300;
     letter-spacing: 1rem;
 }
@@ -290,7 +290,7 @@ html {
     .side-menu {
         width: 100%;
         height:6rem;
-        padding:0 2rem;
+        padding:0 1rem;
         box-shadow: 0 -2px 6px 2px rgb(0 0 0 / 30%);
     }
     .side-menu .profile-img {
@@ -298,10 +298,14 @@ html {
     }
     .side-menu h1 {
         float: left;
-        padding: 1.6rem 1rem;
+        padding: 1.6rem 0.5rem;
         font-size: 2.2rem;
         color: #000;
         font-weight: 600;
+        letter-spacing: -0.04rem;
+    }
+    .side-menu h1 span {
+        display: none;
     }
     .side-menu nav {
         float: right;
@@ -309,8 +313,9 @@ html {
     .side-menu nav li {
         display: inline-block;
         vertical-align: middle;
-        padding: 1.9rem 1rem;
+        padding: 1.9rem 0.5rem;
         font-size: 1.8rem;
+        letter-spacing:-0.04rem;
     }
     .side-menu nav li + li {
         margin-top: 0;
@@ -333,9 +338,19 @@ html {
         padding-left: 0;
     }
     .content > div {
-        padding: 8rem 2% 2%;
+        padding: 8rem 4% 2%;
+    }
+    .project > div {
+        padding: 4% 0;
+    }
+    .content h2 {
+        font-size: 2.5rem;
     }
     .design-banner h2 {
-        margin-top: 5rem;
+        margin-top: 3rem;
+        font-size: 4rem;
     }
+}
+@media (max-width:768px) {
+    html {font-size: 7px;}
 }
