@@ -16,11 +16,7 @@ function cookieVal(cookieName){
 
 $(document).ready(function(){
     console.log(hitcount);
-    
-    /*aos*/
-    $(function(){
-        AOS.init();
-    });
+
     /*slick slide*/
     $(".page-slide").slick({
         slidesToShow: 3,
