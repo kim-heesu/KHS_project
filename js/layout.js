@@ -1,6 +1,6 @@
 // 방문자수 체크
 expireDate = new Date;
-expireDate.setMonth(expireDate.getMonth()+100);
+expireDate.setMonth(expireDate.getMonth()+3);
 hitcount = eval(cookieVal('pageHit'));
 hitcount ++;
 document.cookie = 'pageHit' + hitcount + ';expires=' + expireDate.toGMTString();
