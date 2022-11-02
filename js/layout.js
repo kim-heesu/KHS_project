@@ -1,4 +1,22 @@
+// 방문자수 체크
+expireDate = new Date;
+expireDate.setMonth(expireDate.getMonth()+100);
+hitcount = eval(cookieVal('pageHit'));
+hitcount ++;
+document.cookie = 'pageHit' + hitcount + ';expires=' + expireDate.toGMTString();
+function cookieVal(cookieName){
+    thisCookie = document.cookie.split(';');
+    for(i=0; i<thisCookie.length; i++){
+        if(cookieName == thisCookie[i].split('=')[0]){
+            return thisCookie[i].split('=');
+        }
+    }
+    return 0;
+}
+
 $(document).ready(function(){
+    console.log(hitcount);
+    
     /*aos*/
     $(function(){
         AOS.init();
