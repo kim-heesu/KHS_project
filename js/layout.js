@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    console.log(hitcount);
-
     /*slick slide*/
     $(".page-slide").slick({
         slidesToShow: 3,
